@@ -2,14 +2,14 @@
   "stats": {
     "suites": 8,
     "tests": 82,
-    "passes": 10,
+    "passes": 12,
     "pending": 0,
-    "failures": 9,
-    "start": "2024-09-16T21:19:02.424Z",
-    "end": "2024-09-16T21:23:00.022Z",
-    "duration": 50211,
+    "failures": 7,
+    "start": "2024-09-17T18:28:13.195Z",
+    "end": "2024-09-17T18:32:13.355Z",
+    "duration": 55159,
     "testsRegistered": 82,
-    "passPercent": 12.195121951219512,
+    "passPercent": 14.634146341463415,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0a564631-034a-4bcf-a0bc-4c195b874320",
+      "uuid": "2aacc24f-e410-4ef8-9cb5-808512293723",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\contact_us.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "579fb01d-9584-4aca-99a3-0993349c144a",
+          "uuid": "7fe4310f-1554-4a93-bda6-b31bebdf3d76",
           "title": "UT : Manager : Contact Us",
           "fullFile": "",
           "file": "",
@@ -51,7 +51,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "dcddd21f-b480-418b-a372-d80108e16210",
+              "uuid": "a666a56f-6606-43ac-a9ed-80a977abf614",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -69,7 +69,7 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "fc0b0383-f8ad-4085-956b-fe6f5a6871fd",
+              "uuid": "fad18a18-3716-4286-8b2d-16b5e9a33de5",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -87,7 +87,7 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "2f92b82f-031f-4a04-8df9-fbfd7a1e9a16",
+              "uuid": "1196755a-1b62-48e6-9eca-c03d4daf1fe4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -105,7 +105,7 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "e728ee10-5524-4a79-b6bf-11a8d3c7f2e1",
+              "uuid": "e37c34f1-e28e-4ce1-9a16-de83606e5dbb",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -114,13 +114,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "dcddd21f-b480-418b-a372-d80108e16210"
+            "a666a56f-6606-43ac-a9ed-80a977abf614"
           ],
           "pending": [],
           "skipped": [
-            "fc0b0383-f8ad-4085-956b-fe6f5a6871fd",
-            "2f92b82f-031f-4a04-8df9-fbfd7a1e9a16",
-            "e728ee10-5524-4a79-b6bf-11a8d3c7f2e1"
+            "fad18a18-3716-4286-8b2d-16b5e9a33de5",
+            "1196755a-1b62-48e6-9eca-c03d4daf1fe4",
+            "e37c34f1-e28e-4ce1-9a16-de83606e5dbb"
           ],
           "duration": 0,
           "root": false,
@@ -138,7 +138,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "207e8423-9fe6-4d8d-a00c-219440241d69",
+      "uuid": "d565ea0d-4ec8-4bcc-863e-1bd287273ab9",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\profile.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\profile.cy.ts",
@@ -147,7 +147,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+          "uuid": "aaf48aee-a19a-4fae-958e-daec3a319761",
           "title": "UT : Manager : General",
           "fullFile": "",
           "file": "",
@@ -158,7 +158,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "UT : Manager : General Application Menu : Default items should visible",
               "timedOut": null,
-              "duration": 17567,
+              "duration": 17128,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -171,8 +171,8 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `UT : Manager : General`\n    at cypressErr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:76025:18)\n    at Object.errByPath (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:76079:10)\n    at checkForXhr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135700:84)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135726:28)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:144102:68)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:144043:14)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:166:19)",
                 "diff": null
               },
-              "uuid": "100e76bc-7274-49b8-a400-331c30d87eda",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "e241600a-468f-4129-bcf0-4abf31687655",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": false
             },
@@ -189,8 +189,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('M');",
               "err": {},
-              "uuid": "df4921df-ba4c-49b3-a44c-8f135e8efb56",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "86b5e7e9-c521-495f-bd2e-e5e50a244db7",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -207,8 +207,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-              "uuid": "7aadbe7e-c094-47fc-912e-a02bcae710ef",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "bf34a22f-a2fc-4e32-b2a6-47b2c99f2692",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -225,8 +225,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('UT', 'M');",
               "err": {},
-              "uuid": "6a3ef594-1436-4e4f-8ab7-768f75d4a78f",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "dbc727f3-c415-4132-924a-add0cb5bac43",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -243,8 +243,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('UT', 'M');",
               "err": {},
-              "uuid": "0e8efb5b-0c72-490d-8b01-42b27798b9a7",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "db3008e8-3d61-481e-a9af-983ca1827b9a",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -261,8 +261,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', 'UT', '');",
               "err": {},
-              "uuid": "294df926-a623-40d0-9e69-d6620a98f095",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "2c99a759-4ca8-4d27-8ac9-153ab1019be2",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -279,8 +279,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-              "uuid": "36356f1e-054c-495d-98de-d04df7f9f579",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "c264f492-3952-4a2b-ba21-1dbf3b167b70",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -297,8 +297,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-              "uuid": "97c92289-238a-47ff-9b07-a69c26fa251b",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "5ceff31b-be5e-423e-909d-7abc7ad1f165",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -315,8 +315,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-              "uuid": "57d9b403-b2b0-4cd1-9ca9-e7736717cda7",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "a0c63fae-e16d-4bfc-b7f2-a6fee077c8ed",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-              "uuid": "39bd4024-8992-4f70-ab56-17aaeb863951",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "d3dc3cf7-278e-41e9-aac6-16e50df8a3a0",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
-              "uuid": "9cce20f8-3a66-4032-bb3d-8dffdbf640f1",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "9ee36e99-8b34-4b78-a37c-97f59fb891df",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-              "uuid": "4fe472d9-d511-4d96-b7e4-a8c59638951b",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "6f5c7228-07f8-4792-9508-79d73b642899",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -387,8 +387,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "014faa27-4f2a-48fb-aa58-d36c1967e4ed",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "22e60be0-6faa-4ea4-8897-3651e8b78c01",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -405,8 +405,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "ac2d0ce9-5be4-42b5-a62a-882600b2ac5a",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "b6ba0365-3d4a-4ea7-9bd8-5ba7974c7e0a",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -423,8 +423,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "f7c0e5bb-ec55-416d-b8f2-47b64b9be20f",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "deb43639-397d-479e-8545-468aabada100",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -441,8 +441,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "45a92c71-235d-4c80-9f25-d2c86798b302",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "246e1015-776c-4890-b1c8-e002f7b2da71",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             },
@@ -459,8 +459,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "9069c3e5-c0cf-4a5a-8aa3-bf6bc734bcf3",
-              "parentUUID": "1b1475c9-954a-4d21-8d83-75ec48ac1033",
+              "uuid": "15a2d638-27d2-4586-a468-4991b66d992b",
+              "parentUUID": "aaf48aee-a19a-4fae-958e-daec3a319761",
               "isHook": false,
               "skipped": true
             }
@@ -468,28 +468,28 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "100e76bc-7274-49b8-a400-331c30d87eda"
+            "e241600a-468f-4129-bcf0-4abf31687655"
           ],
           "pending": [],
           "skipped": [
-            "df4921df-ba4c-49b3-a44c-8f135e8efb56",
-            "7aadbe7e-c094-47fc-912e-a02bcae710ef",
-            "6a3ef594-1436-4e4f-8ab7-768f75d4a78f",
-            "0e8efb5b-0c72-490d-8b01-42b27798b9a7",
-            "294df926-a623-40d0-9e69-d6620a98f095",
-            "36356f1e-054c-495d-98de-d04df7f9f579",
-            "97c92289-238a-47ff-9b07-a69c26fa251b",
-            "57d9b403-b2b0-4cd1-9ca9-e7736717cda7",
-            "39bd4024-8992-4f70-ab56-17aaeb863951",
-            "9cce20f8-3a66-4032-bb3d-8dffdbf640f1",
-            "4fe472d9-d511-4d96-b7e4-a8c59638951b",
-            "014faa27-4f2a-48fb-aa58-d36c1967e4ed",
-            "ac2d0ce9-5be4-42b5-a62a-882600b2ac5a",
-            "f7c0e5bb-ec55-416d-b8f2-47b64b9be20f",
-            "45a92c71-235d-4c80-9f25-d2c86798b302",
-            "9069c3e5-c0cf-4a5a-8aa3-bf6bc734bcf3"
+            "86b5e7e9-c521-495f-bd2e-e5e50a244db7",
+            "bf34a22f-a2fc-4e32-b2a6-47b2c99f2692",
+            "dbc727f3-c415-4132-924a-add0cb5bac43",
+            "db3008e8-3d61-481e-a9af-983ca1827b9a",
+            "2c99a759-4ca8-4d27-8ac9-153ab1019be2",
+            "c264f492-3952-4a2b-ba21-1dbf3b167b70",
+            "5ceff31b-be5e-423e-909d-7abc7ad1f165",
+            "a0c63fae-e16d-4bfc-b7f2-a6fee077c8ed",
+            "d3dc3cf7-278e-41e9-aac6-16e50df8a3a0",
+            "9ee36e99-8b34-4b78-a37c-97f59fb891df",
+            "6f5c7228-07f8-4792-9508-79d73b642899",
+            "22e60be0-6faa-4ea4-8897-3651e8b78c01",
+            "b6ba0365-3d4a-4ea7-9bd8-5ba7974c7e0a",
+            "deb43639-397d-479e-8545-468aabada100",
+            "246e1015-776c-4890-b1c8-e002f7b2da71",
+            "15a2d638-27d2-4586-a468-4991b66d992b"
           ],
-          "duration": 17567,
+          "duration": 17128,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -505,7 +505,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "3ebe77d3-1db6-47f9-a17e-ddeb1923951e",
+      "uuid": "58dcc7c1-af6d-4510-a790-570b6ec5f8f3",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\reg_codes.cy.ts",
@@ -514,7 +514,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+          "uuid": "b58c233d-3bf0-4766-9942-059ca085c937",
           "title": "UT : Add New Managers : Registration codes",
           "fullFile": "",
           "file": "",
@@ -525,7 +525,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Add New Managers : Registration codes Default items should visible",
               "timedOut": null,
-              "duration": 2977,
+              "duration": 3111,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -534,8 +534,8 @@
               "context": null,
               "code": "NEW_USER.register('default_items', null);",
               "err": {},
-              "uuid": "24f673eb-b1df-44e7-8f2c-60ee7d89b20e",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "a4eb0366-5dab-400f-9774-d441b05cc18b",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -543,21 +543,17 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "UT : Add New Managers : Registration codes Validate successful new user account creation",
               "timedOut": null,
-              "duration": 8028,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 13698,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
-              "err": {
-                "message": "AssertionError: expected 500 to equal 200",
-                "estack": "AssertionError: expected 500 to equal 200\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/new_user.ts:86:63)",
-                "diff": "- 500\n+ 200\n"
-              },
-              "uuid": "f8897f8a-5709-4009-bacd-8f85b32230ad",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "err": {},
+              "uuid": "404e75be-faa9-4364-93b8-32003c795ad5",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -565,21 +561,17 @@
               "title": "Validate existing user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate existing user",
               "timedOut": null,
-              "duration": 7688,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 5967,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
-              "err": {
-                "message": "AssertionError: expected 500 to equal 409",
-                "estack": "AssertionError: expected 500 to equal 409\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/new_user.ts:102:63)",
-                "diff": "- 500\n+ 409\n"
-              },
-              "uuid": "7bff92dc-27fa-4259-b0de-b3caf8dce7cf",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "err": {},
+              "uuid": "98ade81e-dc14-49ef-a9d9-df65c051f378",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -587,7 +579,7 @@
               "title": "Validate cancel adding new user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate cancel adding new user",
               "timedOut": null,
-              "duration": 242,
+              "duration": 216,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -596,8 +588,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('cancel_creating_user', null);",
               "err": {},
-              "uuid": "fa5f6a9d-53ad-4dc8-89bb-50bc5d507ff1",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "d69bd7a6-fdc4-475d-811c-37d5a61ea8ad",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -605,7 +597,7 @@
               "title": "Check field validations",
               "fullTitle": "UT : Add New Managers : Registration codes Check field validations",
               "timedOut": null,
-              "duration": 1713,
+              "duration": 1813,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -614,8 +606,8 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
-              "uuid": "e01a670a-9645-4b51-8989-187a02b4e039",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "ffb7e701-dddb-4edb-8bfd-591451a52700",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -623,7 +615,7 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
-              "duration": 5088,
+              "duration": 5752,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -632,8 +624,8 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
-              "uuid": "8128e5ef-888c-4c8d-941b-8dd4fa51538f",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "f05e1090-2daa-4d80-a221-28cd4c723dda",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -641,7 +633,7 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching password and verify password fields",
               "timedOut": null,
-              "duration": 4249,
+              "duration": 4871,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -650,8 +642,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
-              "uuid": "aecbcf50-3cfe-4e66-9e1d-219aa8517981",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "9d26de50-2aad-44c7-8e61-f88b7488811b",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -668,8 +660,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "c61746ad-e98f-4189-8749-21a04b2760e6",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "b692bf4d-411d-4eec-8b2b-b7d4ea2f5ba5",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -677,7 +669,7 @@
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
-              "duration": 473,
+              "duration": 471,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -686,8 +678,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "d8986c6b-f7c9-4767-a666-1a5a9c30370d",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "6d93611d-05e5-419a-92d2-c404d7a22ff9",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -695,7 +687,7 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
-              "duration": 545,
+              "duration": 538,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -704,8 +696,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "b63e89d2-c0ef-4f17-a228-0e9e90fc7478",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "cb9fefd5-3524-4842-a24d-b26b7cf9eb92",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -713,7 +705,7 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
-              "duration": 547,
+              "duration": 517,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -722,8 +714,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "745abaa5-a011-4ee2-9ca5-d6b08a2c5cc1",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "c2cce765-38d9-4ad3-a31a-d77151435401",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             },
@@ -731,7 +723,7 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
-              "duration": 665,
+              "duration": 648,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -740,32 +732,31 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "cd570f9e-6c9d-4503-8fd8-746ad44a4f72",
-              "parentUUID": "3d8ac367-19de-4b3d-bd14-b944f967789d",
+              "uuid": "2de1f623-9cbf-46a9-9908-af565934d019",
+              "parentUUID": "b58c233d-3bf0-4766-9942-059ca085c937",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "24f673eb-b1df-44e7-8f2c-60ee7d89b20e",
-            "fa5f6a9d-53ad-4dc8-89bb-50bc5d507ff1",
-            "e01a670a-9645-4b51-8989-187a02b4e039",
-            "8128e5ef-888c-4c8d-941b-8dd4fa51538f",
-            "aecbcf50-3cfe-4e66-9e1d-219aa8517981",
-            "c61746ad-e98f-4189-8749-21a04b2760e6",
-            "d8986c6b-f7c9-4767-a666-1a5a9c30370d",
-            "b63e89d2-c0ef-4f17-a228-0e9e90fc7478",
-            "745abaa5-a011-4ee2-9ca5-d6b08a2c5cc1",
-            "cd570f9e-6c9d-4503-8fd8-746ad44a4f72"
+            "a4eb0366-5dab-400f-9774-d441b05cc18b",
+            "404e75be-faa9-4364-93b8-32003c795ad5",
+            "98ade81e-dc14-49ef-a9d9-df65c051f378",
+            "d69bd7a6-fdc4-475d-811c-37d5a61ea8ad",
+            "ffb7e701-dddb-4edb-8bfd-591451a52700",
+            "f05e1090-2daa-4d80-a221-28cd4c723dda",
+            "9d26de50-2aad-44c7-8e61-f88b7488811b",
+            "b692bf4d-411d-4eec-8b2b-b7d4ea2f5ba5",
+            "6d93611d-05e5-419a-92d2-c404d7a22ff9",
+            "cb9fefd5-3524-4842-a24d-b26b7cf9eb92",
+            "c2cce765-38d9-4ad3-a31a-d77151435401",
+            "2de1f623-9cbf-46a9-9908-af565934d019"
           ],
-          "failures": [
-            "f8897f8a-5709-4009-bacd-8f85b32230ad",
-            "7bff92dc-27fa-4259-b0de-b3caf8dce7cf"
-          ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 32644,
+          "duration": 38031,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -781,7 +772,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "8ad5a9bd-7002-4706-a406-deef2c717028",
+      "uuid": "885fbfd2-6574-42b7-b708-744069a5ea99",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\company_dark_web.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\company_dark_web.cy.ts",
@@ -790,7 +781,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1449cdf3-1a61-456e-be73-2123107eb394",
+          "uuid": "7843edd3-2f37-4892-a675-473b584b7ada",
           "title": "UT : Manager : Company : Dark Web Monitoring",
           "fullFile": "",
           "file": "",
@@ -814,7 +805,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "453f9208-3bc0-4f8e-ab63-de4445ff6bf2",
+              "uuid": "0667ce37-056f-4589-a951-b60320922d2c",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -832,7 +823,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('api_report');",
               "err": {},
-              "uuid": "638f689d-f4fc-4757-af65-8e2a0be59aac",
+              "uuid": "3008aa66-68f6-4f12-93c5-9ee567a01f15",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -850,7 +841,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-              "uuid": "2e54a278-bb99-4c23-b7ee-670e7739e1db",
+              "uuid": "f974c177-de74-4641-8812-42094434b052",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -868,7 +859,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('refresh_session_event');",
               "err": {},
-              "uuid": "477b41e9-4d0c-4e5e-8b82-ac3a0d4f3e69",
+              "uuid": "9721ca17-a662-4d06-b061-86401507e737",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -886,7 +877,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unregistered_domains');",
               "err": {},
-              "uuid": "abe0d42c-e458-4cdb-9fef-bed0842847bc",
+              "uuid": "0765193a-38b9-4c0b-8aff-8dca4cf49597",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -904,7 +895,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unlisted_site_breached');",
               "err": {},
-              "uuid": "527f8b42-9a08-45b2-8f70-5b1231cc128d",
+              "uuid": "5634bde5-117f-427b-bfd5-09357ee2a6b4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -922,7 +913,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_breach_date');",
               "err": {},
-              "uuid": "cea69ddc-4abc-4c92-9ead-7944c941679b",
+              "uuid": "e7efeef1-a2a9-49f7-acb2-d32e09ade56a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -940,7 +931,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('obfuscate_password');",
               "err": {},
-              "uuid": "724778cb-475b-4d56-bcc5-6798b5921b24",
+              "uuid": "18df61bd-8540-49a1-b06a-967261540441",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -958,7 +949,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('non_redacted_password');",
               "err": {},
-              "uuid": "9b5d48f3-2a2b-4b96-bc20-37bebb860960",
+              "uuid": "94811f82-7cdd-415c-a505-717b335f5792",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -976,7 +967,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-              "uuid": "46a9b876-df66-4c1b-a7df-ec66a6299b54",
+              "uuid": "b7359f04-06fa-46c0-9440-d8b5dad1ca7d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -985,19 +976,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "453f9208-3bc0-4f8e-ab63-de4445ff6bf2"
+            "0667ce37-056f-4589-a951-b60320922d2c"
           ],
           "pending": [],
           "skipped": [
-            "638f689d-f4fc-4757-af65-8e2a0be59aac",
-            "2e54a278-bb99-4c23-b7ee-670e7739e1db",
-            "477b41e9-4d0c-4e5e-8b82-ac3a0d4f3e69",
-            "abe0d42c-e458-4cdb-9fef-bed0842847bc",
-            "527f8b42-9a08-45b2-8f70-5b1231cc128d",
-            "cea69ddc-4abc-4c92-9ead-7944c941679b",
-            "724778cb-475b-4d56-bcc5-6798b5921b24",
-            "9b5d48f3-2a2b-4b96-bc20-37bebb860960",
-            "46a9b876-df66-4c1b-a7df-ec66a6299b54"
+            "3008aa66-68f6-4f12-93c5-9ee567a01f15",
+            "f974c177-de74-4641-8812-42094434b052",
+            "9721ca17-a662-4d06-b061-86401507e737",
+            "0765193a-38b9-4c0b-8aff-8dca4cf49597",
+            "5634bde5-117f-427b-bfd5-09357ee2a6b4",
+            "e7efeef1-a2a9-49f7-acb2-d32e09ade56a",
+            "18df61bd-8540-49a1-b06a-967261540441",
+            "94811f82-7cdd-415c-a505-717b335f5792",
+            "b7359f04-06fa-46c0-9440-d8b5dad1ca7d"
           ],
           "duration": 0,
           "root": false,
@@ -1015,7 +1006,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "4a1caee0-b085-46a7-b261-e58ad6d28300",
+      "uuid": "a037c70e-ad49-42ae-b063-9dfa2b98a19c",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
@@ -1024,7 +1015,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0d7debbb-620b-4f07-b47b-9ba2d05ed5bb",
+          "uuid": "a074c69b-d678-4061-86db-3308296c6466",
           "title": "UT : Manager : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -1048,7 +1039,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "02157e2f-5597-45b7-a770-ac84b22f3d8b",
+              "uuid": "6cc85f0e-83ee-4089-b531-342ba8b2cdd4",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1066,7 +1057,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
-              "uuid": "5a10eb29-19e3-48cb-9ccc-79fa11a28ffc",
+              "uuid": "9e5b0705-b8b9-4281-8f06-e7f1cbf468aa",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1084,7 +1075,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {},
-              "uuid": "4a59dc86-086f-43d7-8f79-52cee28f986d",
+              "uuid": "3df15f6c-17ce-446f-9b3f-c64bfed20cb9",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1102,7 +1093,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('training_videos');",
               "err": {},
-              "uuid": "6047d7cd-8dff-40f1-8153-ef2fd96dc792",
+              "uuid": "57411b3a-241a-4cd3-b48d-647348f5de67",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1120,7 +1111,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
-              "uuid": "e4002bb8-221b-456c-8bdf-8c0f4484300f",
+              "uuid": "2ea04f1d-8988-4528-9c0b-c9be87c5b26a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1138,7 +1129,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
-              "uuid": "e719ecf7-1767-4afa-96aa-c7372732cb1e",
+              "uuid": "03e4bce9-a1bb-49b8-8a2b-d56066b73657",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1156,7 +1147,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {},
-              "uuid": "204cb805-2cbf-4068-b33d-3efe111d00b4",
+              "uuid": "80d27309-e9eb-4b90-9c41-ae6d40d25b64",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1174,7 +1165,7 @@
               "context": null,
               "code": "TRAINING.enrolledCourses();",
               "err": {},
-              "uuid": "e40176c5-dfcd-4d3a-88d4-def132e402dd",
+              "uuid": "00645741-aa41-48ca-925d-f38bae042950",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1183,17 +1174,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "02157e2f-5597-45b7-a770-ac84b22f3d8b"
+            "6cc85f0e-83ee-4089-b531-342ba8b2cdd4"
           ],
           "pending": [],
           "skipped": [
-            "5a10eb29-19e3-48cb-9ccc-79fa11a28ffc",
-            "4a59dc86-086f-43d7-8f79-52cee28f986d",
-            "6047d7cd-8dff-40f1-8153-ef2fd96dc792",
-            "e4002bb8-221b-456c-8bdf-8c0f4484300f",
-            "e719ecf7-1767-4afa-96aa-c7372732cb1e",
-            "204cb805-2cbf-4068-b33d-3efe111d00b4",
-            "e40176c5-dfcd-4d3a-88d4-def132e402dd"
+            "9e5b0705-b8b9-4281-8f06-e7f1cbf468aa",
+            "3df15f6c-17ce-446f-9b3f-c64bfed20cb9",
+            "57411b3a-241a-4cd3-b48d-647348f5de67",
+            "2ea04f1d-8988-4528-9c0b-c9be87c5b26a",
+            "03e4bce9-a1bb-49b8-8a2b-d56066b73657",
+            "80d27309-e9eb-4b90-9c41-ae6d40d25b64",
+            "00645741-aa41-48ca-925d-f38bae042950"
           ],
           "duration": 0,
           "root": false,
@@ -1211,7 +1202,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "eac067a9-9b76-47ad-b5fd-28f4b6a35a1a",
+      "uuid": "1f979ae8-3489-48aa-8474-58d5eaeb3447",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\training-reports\\annual.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\training-reports\\annual.cy.ts",
@@ -1220,7 +1211,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9c0d21e3-5f2a-4e2f-8966-3f6d52193d65",
+          "uuid": "53484740-b21e-4bcb-9647-970848adbe91",
           "title": "UT : Manager : Company : Training Reports : Annual",
           "fullFile": "",
           "file": "",
@@ -1244,7 +1235,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "97a46568-19ef-4eef-a66b-22349c4e80d9",
+              "uuid": "830382f0-b0ae-48c1-b79e-01c302e15904",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1262,7 +1253,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-              "uuid": "6e91c780-f40b-4e08-b403-efcc341e99a4",
+              "uuid": "38db62c3-312e-4b3f-a646-46525df870ff",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1280,7 +1271,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-              "uuid": "339bc6f7-bd73-4b6e-9812-e4a2a54e6e6e",
+              "uuid": "7ae6618e-3575-4d92-9381-351afa994ce1",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1298,7 +1289,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-              "uuid": "5c2dd367-2bad-42a6-9039-8d5f462fde91",
+              "uuid": "ca7525b7-b769-4b3c-a372-8615af7419a2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1316,7 +1307,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-              "uuid": "02cebe01-85ce-4365-bafe-77714c0f805e",
+              "uuid": "88548024-9680-4e71-846c-fa0b67fd1ca8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1334,7 +1325,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-              "uuid": "165085c5-28ee-43a4-8648-226cf563e420",
+              "uuid": "d9857195-0362-492d-8d2f-e2e13fe0446a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1352,7 +1343,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-              "uuid": "2a984aee-86e0-4d55-9fa7-ba0a2eef1b69",
+              "uuid": "89a8005c-11e7-4ba4-865b-c45ed4b90f33",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1370,7 +1361,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-selected-training-report', '');",
               "err": {},
-              "uuid": "e94d5983-d366-4411-b308-722b76d06414",
+              "uuid": "d6cd8e5f-8a8f-4a16-a79f-6c85254d8ac8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1388,7 +1379,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-existing-user', '');",
               "err": {},
-              "uuid": "a755e7c5-3023-4d19-b450-359df31dc90d",
+              "uuid": "b583cd71-7c19-40ba-bff9-0e24c3704b16",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1406,7 +1397,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-non-existing-user', '');",
               "err": {},
-              "uuid": "00833d36-8b2f-419b-b383-3f8272572113",
+              "uuid": "eb75329b-3b26-4c24-909a-278ba5993dbf",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1415,19 +1406,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "97a46568-19ef-4eef-a66b-22349c4e80d9"
+            "830382f0-b0ae-48c1-b79e-01c302e15904"
           ],
           "pending": [],
           "skipped": [
-            "6e91c780-f40b-4e08-b403-efcc341e99a4",
-            "339bc6f7-bd73-4b6e-9812-e4a2a54e6e6e",
-            "5c2dd367-2bad-42a6-9039-8d5f462fde91",
-            "02cebe01-85ce-4365-bafe-77714c0f805e",
-            "165085c5-28ee-43a4-8648-226cf563e420",
-            "2a984aee-86e0-4d55-9fa7-ba0a2eef1b69",
-            "e94d5983-d366-4411-b308-722b76d06414",
-            "a755e7c5-3023-4d19-b450-359df31dc90d",
-            "00833d36-8b2f-419b-b383-3f8272572113"
+            "38db62c3-312e-4b3f-a646-46525df870ff",
+            "7ae6618e-3575-4d92-9381-351afa994ce1",
+            "ca7525b7-b769-4b3c-a372-8615af7419a2",
+            "88548024-9680-4e71-846c-fa0b67fd1ca8",
+            "d9857195-0362-492d-8d2f-e2e13fe0446a",
+            "89a8005c-11e7-4ba4-865b-c45ed4b90f33",
+            "d6cd8e5f-8a8f-4a16-a79f-6c85254d8ac8",
+            "b583cd71-7c19-40ba-bff9-0e24c3704b16",
+            "eb75329b-3b26-4c24-909a-278ba5993dbf"
           ],
           "duration": 0,
           "root": false,
@@ -1445,7 +1436,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "2cb4586a-0ba7-4ca6-8c29-c414dca61948",
+      "uuid": "b1446235-0a80-48c6-a5a5-5780a7ad01cb",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\employee.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\employee.cy.ts",
@@ -1454,7 +1445,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f35cc65b-5d98-4ae9-9c32-f75d983775be",
+          "uuid": "6d8a18ed-1a28-4529-8457-ff824729c023",
           "title": "UT : Manager : Company : Employee",
           "fullFile": "",
           "file": "",
@@ -1478,7 +1469,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "c6bfbb1c-fc43-4b06-9bd5-5aa97334653d",
+              "uuid": "1d0ec8a9-83bf-4ed3-b1ee-5e7d68dddc67",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1496,7 +1487,7 @@
               "context": null,
               "code": "EMPLOYEES.validateItems('verify-text-contains', 'UT', 'M', 'employees');",
               "err": {},
-              "uuid": "3a032e80-3fd7-49f5-8715-d8c9efd742d7",
+              "uuid": "c84828bf-b424-4dbd-af43-78c3a0d2628e",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1514,7 +1505,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "1b1456e2-47a3-49d8-bf57-61e4e50a9c25",
+              "uuid": "09a8430c-8082-498d-9845-5b646e143892",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1532,7 +1523,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "0a695e14-86f8-41fc-aa83-7dfba99c4f59",
+              "uuid": "1f5d7ff2-aed8-4bd0-a762-88fca3a255ce",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1550,7 +1541,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "a3a7994e-4937-4c54-9c20-86b463da9e54",
+              "uuid": "d772e163-7c56-4cb6-a1e5-2eeccbdbf83c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1568,7 +1559,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "46b4a6cf-bf7c-489f-b9fd-be69482e7304",
+              "uuid": "c474b7c1-b46f-44af-a670-6457bb5d17cf",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1586,7 +1577,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "9e239ff6-484f-4325-8b8a-1b832552ac30",
+              "uuid": "38e66a97-0a85-4735-b75a-7d679327c42d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1604,7 +1595,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "63da1f09-fb7d-4ca3-b6fd-aa387745f525",
+              "uuid": "386563d0-62ac-4f2f-ae1e-45498ebf7b27",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1622,7 +1613,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "1f4fea7a-7d24-42a4-9d45-894d6deb5753",
+              "uuid": "4841473f-3333-4e7d-be59-4eda6b2a8821",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1640,7 +1631,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "450cb0b5-49d6-468b-8fd9-a3a7bce55e90",
+              "uuid": "3a678cbc-2e7b-4910-a4ed-e3a763eaea14",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1658,7 +1649,7 @@
               "context": null,
               "code": "EMPLOYEES.searchScenarios('unregistered-user', 'employees');",
               "err": {},
-              "uuid": "9660e31e-8fcd-4cf6-abaa-529db8564209",
+              "uuid": "41ccd507-415f-42df-a29d-2c934e343c80",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1676,7 +1667,7 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('enable', 'employees');",
               "err": {},
-              "uuid": "ad6f9ae5-a43d-4639-8095-7f3bcd2a3279",
+              "uuid": "b3c6c39f-7e28-4c65-8ec3-8852a4a486f8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1694,7 +1685,7 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('disable', 'employees');",
               "err": {},
-              "uuid": "06827022-9d78-4f91-85b4-a7ee896d9753",
+              "uuid": "ae66f44d-6ff4-4ef6-bdda-0ead84f934bf",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1703,22 +1694,22 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c6bfbb1c-fc43-4b06-9bd5-5aa97334653d"
+            "1d0ec8a9-83bf-4ed3-b1ee-5e7d68dddc67"
           ],
           "pending": [],
           "skipped": [
-            "3a032e80-3fd7-49f5-8715-d8c9efd742d7",
-            "1b1456e2-47a3-49d8-bf57-61e4e50a9c25",
-            "0a695e14-86f8-41fc-aa83-7dfba99c4f59",
-            "a3a7994e-4937-4c54-9c20-86b463da9e54",
-            "46b4a6cf-bf7c-489f-b9fd-be69482e7304",
-            "9e239ff6-484f-4325-8b8a-1b832552ac30",
-            "63da1f09-fb7d-4ca3-b6fd-aa387745f525",
-            "1f4fea7a-7d24-42a4-9d45-894d6deb5753",
-            "450cb0b5-49d6-468b-8fd9-a3a7bce55e90",
-            "9660e31e-8fcd-4cf6-abaa-529db8564209",
-            "ad6f9ae5-a43d-4639-8095-7f3bcd2a3279",
-            "06827022-9d78-4f91-85b4-a7ee896d9753"
+            "c84828bf-b424-4dbd-af43-78c3a0d2628e",
+            "09a8430c-8082-498d-9845-5b646e143892",
+            "1f5d7ff2-aed8-4bd0-a762-88fca3a255ce",
+            "d772e163-7c56-4cb6-a1e5-2eeccbdbf83c",
+            "c474b7c1-b46f-44af-a670-6457bb5d17cf",
+            "38e66a97-0a85-4735-b75a-7d679327c42d",
+            "386563d0-62ac-4f2f-ae1e-45498ebf7b27",
+            "4841473f-3333-4e7d-be59-4eda6b2a8821",
+            "3a678cbc-2e7b-4910-a4ed-e3a763eaea14",
+            "41ccd507-415f-42df-a29d-2c934e343c80",
+            "b3c6c39f-7e28-4c65-8ec3-8852a4a486f8",
+            "ae66f44d-6ff4-4ef6-bdda-0ead84f934bf"
           ],
           "duration": 0,
           "root": false,
@@ -1736,7 +1727,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "28b52b6c-a8fc-4810-8b3f-f6b805da9855",
+      "uuid": "de31b6a3-9ee4-46a8-9728-5b405952dbd9",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\tags.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\tags.cy.ts",
@@ -1745,7 +1736,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1101d6f5-f87b-4018-bd6e-34ec56d29b78",
+          "uuid": "3502cb9b-f0fa-44d2-a76f-c73d03792e02",
           "title": "UT: Manager : My Company : Tags",
           "fullFile": "",
           "file": "",
@@ -1769,7 +1760,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "93085138-e2e6-4fa1-8b82-ae82a2a3234f",
+              "uuid": "0f281437-00c9-464f-a7f1-6ab250ca4b3f",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1787,7 +1778,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-create-new-tag', 'employees');",
               "err": {},
-              "uuid": "e272c909-d014-4a4b-8e1a-10d60ddc4d83",
+              "uuid": "a03f2474-c188-4773-8745-bacba049d752",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1805,7 +1796,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-update-created-tag', 'employees');",
               "err": {},
-              "uuid": "1a376925-f9be-4273-af43-6588c59d0925",
+              "uuid": "4c903858-305b-4648-9604-4f06dc7521b0",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1823,7 +1814,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-delete-created-tag', 'employees');",
               "err": {},
-              "uuid": "fa672935-24cd-41ea-9977-da131f1ecb10",
+              "uuid": "3fcf4918-164f-48ad-bed3-5e8fbdc6bbbc",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1841,7 +1832,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-existing-tags', 'employees');",
               "err": {},
-              "uuid": "391b9ca5-1a96-49f1-9e3e-c1584b2400fd",
+              "uuid": "03dab43c-4585-4f6b-970b-bc5270dfba41",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1859,7 +1850,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('cancel-create-tags', 'employees');",
               "err": {},
-              "uuid": "1e444ad9-8fdd-4ca6-a463-1c9edc1a037c",
+              "uuid": "5fb5e63f-07fe-43f5-b44b-330acfb58d02",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1877,7 +1868,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('update-empty-value', 'employees');",
               "err": {},
-              "uuid": "78c6b513-26e3-48ef-8ad1-980437d75b4a",
+              "uuid": "79294843-0719-46b9-9230-2d3feb57540d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1895,7 +1886,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('create-empty-value', 'employees');",
               "err": {},
-              "uuid": "26a076f9-a1cf-4051-98ac-8de5a4230cff",
+              "uuid": "49519297-aacb-43c4-a065-cb970f2ba45f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1904,17 +1895,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "93085138-e2e6-4fa1-8b82-ae82a2a3234f"
+            "0f281437-00c9-464f-a7f1-6ab250ca4b3f"
           ],
           "pending": [],
           "skipped": [
-            "e272c909-d014-4a4b-8e1a-10d60ddc4d83",
-            "1a376925-f9be-4273-af43-6588c59d0925",
-            "fa672935-24cd-41ea-9977-da131f1ecb10",
-            "391b9ca5-1a96-49f1-9e3e-c1584b2400fd",
-            "1e444ad9-8fdd-4ca6-a463-1c9edc1a037c",
-            "78c6b513-26e3-48ef-8ad1-980437d75b4a",
-            "26a076f9-a1cf-4051-98ac-8de5a4230cff"
+            "a03f2474-c188-4773-8745-bacba049d752",
+            "4c903858-305b-4648-9604-4f06dc7521b0",
+            "3fcf4918-164f-48ad-bed3-5e8fbdc6bbbc",
+            "03dab43c-4585-4f6b-970b-bc5270dfba41",
+            "5fb5e63f-07fe-43f5-b44b-330acfb58d02",
+            "79294843-0719-46b9-9230-2d3feb57540d",
+            "49519297-aacb-43c4-a065-cb970f2ba45f"
           ],
           "duration": 0,
           "root": false,
