@@ -5,9 +5,9 @@
     "passes": 70,
     "pending": 0,
     "failures": 11,
-    "start": "2025-05-07T20:54:30.953Z",
-    "end": "2025-05-07T21:28:36.497Z",
-    "duration": 1858035,
+    "start": "2025-05-08T20:13:32.061Z",
+    "end": "2025-05-08T20:47:50.557Z",
+    "duration": 1869489,
     "testsRegistered": 89,
     "passPercent": 78.65168539325843,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ac10126a-55d2-4456-b380-82f51cc91404",
+      "uuid": "e78c9279-062b-4351-adab-266787d0dc46",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\contact_us.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\contact_us.cy.ts",
@@ -27,11 +27,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "645ff635-cb38-4b31-9e27-24cd0bf28e6e",
-=======
-          "uuid": "da3fdf82-3c97-47d1-98c7-97e6f0cbd731",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "56ff7e77-9673-402f-9c6f-08d3f8c18455",
           "title": "UT : Manager : Contact Us",
           "fullFile": "",
           "file": "",
@@ -42,11 +38,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager : Contact Us Default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 23405,
-=======
-              "duration": 23793,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 23866,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -55,13 +47,8 @@
               "context": null,
               "code": "CONTACT_US.verifyItemsIfExist();",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "f3b9c235-669f-4d8e-a324-55ac237096bb",
-              "parentUUID": "645ff635-cb38-4b31-9e27-24cd0bf28e6e",
-=======
-              "uuid": "64b5ee89-0780-4b2c-8dcf-9bcc50a1f6be",
-              "parentUUID": "da3fdf82-3c97-47d1-98c7-97e6f0cbd731",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "51199e25-a161-499f-b819-e848d4dd52c1",
+              "parentUUID": "56ff7e77-9673-402f-9c6f-08d3f8c18455",
               "isHook": false,
               "skipped": false
             },
@@ -69,11 +56,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "UT : Manager : Contact Us Check texts/labels if visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 137,
-=======
-              "duration": 145,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 156,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -82,13 +65,8 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "42051eab-6e84-4c5c-bc48-c8fd85d94f94",
-              "parentUUID": "645ff635-cb38-4b31-9e27-24cd0bf28e6e",
-=======
-              "uuid": "f91e3e56-1ad5-4097-844e-34979984590b",
-              "parentUUID": "da3fdf82-3c97-47d1-98c7-97e6f0cbd731",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "f82a7b52-d437-420d-bef3-86264b9d8df3",
+              "parentUUID": "56ff7e77-9673-402f-9c6f-08d3f8c18455",
               "isHook": false,
               "skipped": false
             },
@@ -96,11 +74,7 @@
               "title": "Validate Cancel submission",
               "fullTitle": "UT : Manager : Contact Us Validate Cancel submission",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 2347,
-=======
-              "duration": 2161,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 2182,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -109,13 +83,8 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "de39926d-dcfe-4ab4-888d-8b6beeb98eba",
-              "parentUUID": "645ff635-cb38-4b31-9e27-24cd0bf28e6e",
-=======
-              "uuid": "d2f33852-31ae-49e7-bb32-0271c1907bae",
-              "parentUUID": "da3fdf82-3c97-47d1-98c7-97e6f0cbd731",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "2e3d78e9-211d-496b-83c5-9c17caec8e05",
+              "parentUUID": "56ff7e77-9673-402f-9c6f-08d3f8c18455",
               "isHook": false,
               "skipped": false
             },
@@ -123,11 +92,7 @@
               "title": "Validate contact-us submission",
               "fullTitle": "UT : Manager : Contact Us Validate contact-us submission",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 8565,
-=======
-              "duration": 9025,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 9369,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -136,39 +101,23 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "4e1948c9-b15d-481a-b8a6-e961d77cd8a5",
-              "parentUUID": "645ff635-cb38-4b31-9e27-24cd0bf28e6e",
-=======
-              "uuid": "80bd98a5-0180-4d53-b959-25dbeb8a6955",
-              "parentUUID": "da3fdf82-3c97-47d1-98c7-97e6f0cbd731",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "bc593046-4f4c-449f-b282-2ee7068ad1f0",
+              "parentUUID": "56ff7e77-9673-402f-9c6f-08d3f8c18455",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "f3b9c235-669f-4d8e-a324-55ac237096bb",
-            "42051eab-6e84-4c5c-bc48-c8fd85d94f94",
-            "de39926d-dcfe-4ab4-888d-8b6beeb98eba",
-            "4e1948c9-b15d-481a-b8a6-e961d77cd8a5"
-=======
-            "64b5ee89-0780-4b2c-8dcf-9bcc50a1f6be",
-            "f91e3e56-1ad5-4097-844e-34979984590b",
-            "d2f33852-31ae-49e7-bb32-0271c1907bae",
-            "80bd98a5-0180-4d53-b959-25dbeb8a6955"
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+            "51199e25-a161-499f-b819-e848d4dd52c1",
+            "f82a7b52-d437-420d-bef3-86264b9d8df3",
+            "2e3d78e9-211d-496b-83c5-9c17caec8e05",
+            "bc593046-4f4c-449f-b282-2ee7068ad1f0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 34454,
-=======
-          "duration": 35124,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 35573,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -184,11 +133,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "cb70c847-16be-4dab-a13b-a01482b25b67",
-=======
-      "uuid": "378d4ee2-eeee-4226-ba09-9637f5ab374d",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "093a915c-6765-4b28-a921-3b2077878fb8",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\profile.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\profile.cy.ts",
@@ -197,11 +142,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-          "uuid": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
           "title": "UT : Manager : General",
           "fullFile": "",
           "file": "",
@@ -212,11 +153,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "UT : Manager : General Application Menu : Default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 26665,
-=======
-              "duration": 27007,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 25429,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -225,13 +162,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyItemsIfExist('M');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "683a4c8f-8fdb-47d5-a948-a465dce5d83f",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "dceedc98-8267-43ed-9554-712affb42898",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "7311b9f3-82fd-4a7b-83d4-98428592342c",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -239,11 +171,7 @@
               "title": "Application Menu : Check texts/labels if visible",
               "fullTitle": "UT : Manager : General Application Menu : Check texts/labels if visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 17,
-=======
-              "duration": 22,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 29,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -252,13 +180,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('M');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "cf22be13-4082-4593-bbba-88aae41b8898",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "2c40279b-6ca4-49fe-b31e-d10897f35783",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "14deb350-c7ce-47f4-ac27-b1ecc306d365",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -266,11 +189,7 @@
               "title": "Application Menu : Validate favorite application",
               "fullTitle": "UT : Manager : General Application Menu : Validate favorite application",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5941,
-=======
-              "duration": 5884,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5480,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -279,13 +198,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "95a47c70-6f4b-40cc-a317-f431d345ccd9",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "fc176930-893d-4e65-8b2f-3ce29f673f16",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "89a8a2bf-3343-43d8-ba35-3e17cc02af64",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -293,11 +207,7 @@
               "title": "My Profile : Default items and fields should visible",
               "fullTitle": "UT : Manager : General My Profile : Default items and fields should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 2871,
-=======
-              "duration": 2456,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 2753,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -306,13 +216,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('UT', 'M');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "341a7a4a-f6c7-4978-ac94-4c6578b1835d",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "5ead67b7-298a-41e8-bfdd-b37ab9d68d3f",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "17f1d583-e98f-4ba3-924e-ad45fd29d9e2",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -320,11 +225,7 @@
               "title": "My Profile : Check texts/labels if visible",
               "fullTitle": "UT : Manager : General My Profile : Check texts/labels if visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 69,
-=======
-              "duration": 71,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 77,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -333,13 +234,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('UT', 'M');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "fbf2015b-a005-4504-a80b-6c4f944f3c6e",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "2038b6e1-64c7-4c95-90e2-e580e266aa29",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "aca24b36-d433-4ce4-9402-3965ecef4024",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -347,11 +243,7 @@
               "title": "My Profile : Update Basic Information",
               "fullTitle": "UT : Manager : General My Profile : Update Basic Information",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 37026,
-=======
-              "duration": 36170,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 37181,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -360,13 +252,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', 'UT', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "9b8336f4-753f-495b-bd04-966368081157",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "6a05d1ec-7f0f-48b3-834a-2fd22454b9c1",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "9a06e1a2-6f94-431b-b68e-81075bc68240",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -374,11 +261,7 @@
               "title": "My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "fullTitle": "UT : Manager : General My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5413,
-=======
-              "duration": 5838,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5759,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -387,13 +270,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "f68a73c5-06ef-446b-b4a8-02b3ac0cb424",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "bb89589e-7852-4ba7-883c-843becb0f358",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "d8b5d307-0733-453c-a59f-0cfa00fdc9e0",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -401,11 +279,7 @@
               "title": "My Profile (NEGATIVE) : Password and verify fields password does not match",
               "fullTitle": "UT : Manager : General My Profile (NEGATIVE) : Password and verify fields password does not match",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5187,
-=======
-              "duration": 5715,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5563,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -414,13 +288,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "f6750604-a6bf-4f85-9123-f2111e8af672",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "d53a326b-6cc1-44f5-be8b-deede40851af",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "74220eb8-f6db-491c-af74-f69e65b259e0",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -428,11 +297,7 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "fullTitle": "UT : Manager : General My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5145,
-=======
-              "duration": 5030,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5741,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -441,13 +306,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "91a08003-c5a7-41da-a6ab-b4be14975962",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "0d177e61-62ca-47d9-80ac-886c773cea6d",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "f072111c-0545-48f2-af84-171e2387175c",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -455,26 +315,17 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "fullTitle": "UT : Manager : General My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 4490,
-=======
-              "duration": 5418,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 6293,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "a9bdcc9e-1ecf-4a95-a515-f6a26c6fb929",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "706348ef-9b76-459c-9c71-88d7b3844562",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "33da3692-0cd4-48eb-9bdf-7921ae969862",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -482,11 +333,7 @@
               "title": "My Profile (OOTB) : Able to change country code on phone number",
               "fullTitle": "UT : Manager : General My Profile (OOTB) : Able to change country code on phone number",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 35699,
-=======
-              "duration": 35631,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 36263,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -495,21 +342,12 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {
-<<<<<<< HEAD
-                "message": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 1 908 894 932', but the value was '+63 1908 894 932'",
-                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 1 908 894 932', but the value was '+63 1908 894 932'\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my_profile.ts:290:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)",
-                "diff": "- '+63 1908 894 932'\n+ '+63 1 908 894 932'\n"
+                "message": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 44998649932', but the value was '+63'",
+                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 44998649932', but the value was '+63'\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my_profile.ts:298:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)",
+                "diff": "- '+63'\n+ '+63 44998649932'\n"
               },
-              "uuid": "c9129e63-0a63-45c9-89a8-c2ae5155ef34",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-                "message": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 4997 9334932', but the value was '+63 49979334932'",
-                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<input#:r2:.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.MuiInputBase-inputAdornedStart.css-1rbtue2>' to have value '+63 4997 9334932', but the value was '+63 49979334932'\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my_profile.ts:298:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)",
-                "diff": "- '+63 49979334932'\n+ '+63 4997 9334932'\n"
-              },
-              "uuid": "d10bfba6-3087-4e6c-995d-47cc84f0aed8",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "ab092e1e-b560-4845-83e6-21f6d195dafc",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -517,26 +355,17 @@
               "title": "My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "fullTitle": "UT : Manager : General My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5316,
-=======
-              "duration": 5679,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 4949,
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "5beea256-a97a-4283-84d9-24d5af26f723",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "7fb58f3d-663b-4f1f-9dd9-6078473b31e1",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "bd8d80b7-9b8e-4e37-a290-5ed8270f717c",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -544,11 +373,7 @@
               "title": "My Profile : Validate Password Strength - risk",
               "fullTitle": "UT : Manager : General My Profile : Validate Password Strength - risk",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 398,
-=======
-              "duration": 436,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 375,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -557,13 +382,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "d1d4e0b3-c233-4b5e-9ddd-21b1ff476030",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "19ee7bde-c82a-4e59-9603-d0983fce49af",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "95c7f326-8ca0-496f-b687-8a61c631a9b7",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -571,11 +391,7 @@
               "title": "My Profile : Validate Password Strength - weak",
               "fullTitle": "UT : Manager : General My Profile : Validate Password Strength - weak",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 409,
-=======
-              "duration": 416,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 437,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -584,13 +400,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "8cf08e03-aa7a-4c07-ac2a-e9baea07640c",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "a5ddd377-3159-4785-b6f4-8f5edc8f9dd1",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "1bdffdd6-2c74-445e-9ede-5a2bcf8b0292",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -598,11 +409,7 @@
               "title": "My Profile : Validate Password Strength - fair",
               "fullTitle": "UT : Manager : General My Profile : Validate Password Strength - fair",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 605,
-=======
-              "duration": 616,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 608,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -611,13 +418,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "c913678f-1e87-484f-aa00-6e1312e31fff",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "0a3386a4-9fe5-49e8-88d1-5fa88d21c8ad",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "849d402d-0f6c-444c-ae2f-e70e19d33150",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -625,11 +427,7 @@
               "title": "My Profile : Validate Password Strength - good",
               "fullTitle": "UT : Manager : General My Profile : Validate Password Strength - good",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 638,
-=======
-              "duration": 656,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 593,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -638,13 +436,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "2197ed7f-3c8e-4ff9-bac0-77a33365cd24",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "e6d48720-4d49-401d-83ad-22901b462ce2",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8f3177b8-c3ec-484f-a8db-c3fea6e75153",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             },
@@ -652,11 +445,7 @@
               "title": "My Profile : Validate Password Strength - strong",
               "fullTitle": "UT : Manager : General My Profile : Validate Password Strength - strong",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 843,
-=======
-              "duration": 934,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 849,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -665,68 +454,37 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "8bd2f6aa-48f9-4147-97de-eab989d80010",
-              "parentUUID": "8eedca6d-4b6a-40fb-bf7e-d16be7d15892",
-=======
-              "uuid": "8ccb4035-6f41-4760-99bf-648f8116ca47",
-              "parentUUID": "15f41799-df6e-49b8-83af-7592fb60ede3",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "f254d1d6-b481-4580-9b66-8304b6224e9e",
+              "parentUUID": "8f1c7540-2b57-4722-9ca3-5d04a7204757",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "683a4c8f-8fdb-47d5-a948-a465dce5d83f",
-            "cf22be13-4082-4593-bbba-88aae41b8898",
-            "95a47c70-6f4b-40cc-a317-f431d345ccd9",
-            "341a7a4a-f6c7-4978-ac94-4c6578b1835d",
-            "fbf2015b-a005-4504-a80b-6c4f944f3c6e",
-            "9b8336f4-753f-495b-bd04-966368081157",
-            "f68a73c5-06ef-446b-b4a8-02b3ac0cb424",
-            "f6750604-a6bf-4f85-9123-f2111e8af672",
-            "91a08003-c5a7-41da-a6ab-b4be14975962",
-            "a9bdcc9e-1ecf-4a95-a515-f6a26c6fb929",
-            "5beea256-a97a-4283-84d9-24d5af26f723",
-            "d1d4e0b3-c233-4b5e-9ddd-21b1ff476030",
-            "8cf08e03-aa7a-4c07-ac2a-e9baea07640c",
-            "c913678f-1e87-484f-aa00-6e1312e31fff",
-            "2197ed7f-3c8e-4ff9-bac0-77a33365cd24",
-            "8bd2f6aa-48f9-4147-97de-eab989d80010"
+            "7311b9f3-82fd-4a7b-83d4-98428592342c",
+            "14deb350-c7ce-47f4-ac27-b1ecc306d365",
+            "89a8a2bf-3343-43d8-ba35-3e17cc02af64",
+            "17f1d583-e98f-4ba3-924e-ad45fd29d9e2",
+            "aca24b36-d433-4ce4-9402-3965ecef4024",
+            "9a06e1a2-6f94-431b-b68e-81075bc68240",
+            "d8b5d307-0733-453c-a59f-0cfa00fdc9e0",
+            "74220eb8-f6db-491c-af74-f69e65b259e0",
+            "f072111c-0545-48f2-af84-171e2387175c",
+            "33da3692-0cd4-48eb-9bdf-7921ae969862",
+            "bd8d80b7-9b8e-4e37-a290-5ed8270f717c",
+            "95c7f326-8ca0-496f-b687-8a61c631a9b7",
+            "1bdffdd6-2c74-445e-9ede-5a2bcf8b0292",
+            "849d402d-0f6c-444c-ae2f-e70e19d33150",
+            "8f3177b8-c3ec-484f-a8db-c3fea6e75153",
+            "f254d1d6-b481-4580-9b66-8304b6224e9e"
           ],
           "failures": [
-            "c9129e63-0a63-45c9-89a8-c2ae5155ef34"
+            "ab092e1e-b560-4845-83e6-21f6d195dafc"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 136732,
-=======
-            "dceedc98-8267-43ed-9554-712affb42898",
-            "2c40279b-6ca4-49fe-b31e-d10897f35783",
-            "fc176930-893d-4e65-8b2f-3ce29f673f16",
-            "5ead67b7-298a-41e8-bfdd-b37ab9d68d3f",
-            "2038b6e1-64c7-4c95-90e2-e580e266aa29",
-            "6a05d1ec-7f0f-48b3-834a-2fd22454b9c1",
-            "bb89589e-7852-4ba7-883c-843becb0f358",
-            "d53a326b-6cc1-44f5-be8b-deede40851af",
-            "0d177e61-62ca-47d9-80ac-886c773cea6d",
-            "706348ef-9b76-459c-9c71-88d7b3844562",
-            "7fb58f3d-663b-4f1f-9dd9-6078473b31e1",
-            "19ee7bde-c82a-4e59-9603-d0983fce49af",
-            "a5ddd377-3159-4785-b6f4-8f5edc8f9dd1",
-            "0a3386a4-9fe5-49e8-88d1-5fa88d21c8ad",
-            "e6d48720-4d49-401d-83ad-22901b462ce2",
-            "8ccb4035-6f41-4760-99bf-648f8116ca47"
-          ],
-          "failures": [
-            "d10bfba6-3087-4e6c-995d-47cc84f0aed8"
-          ],
-          "pending": [],
-          "skipped": [],
-          "duration": 137979,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 138379,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -742,11 +500,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "b22ee0d8-746c-4ef9-8d9f-190c77037479",
-=======
-      "uuid": "0d67f939-9cac-4d4a-a47d-148af885b7d6",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "3d1ce40e-1a11-440a-aab7-6b4dd48eb53a",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\reg_codes.cy.ts",
@@ -755,11 +509,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-          "uuid": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "95340d7d-a664-468a-ab07-eda84f35200f",
           "title": "UT : Add New Managers : Registration codes",
           "fullFile": "",
           "file": "",
@@ -770,11 +520,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Add New Managers : Registration codes Default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 3029,
-=======
-              "duration": 2812,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 3100,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -783,13 +529,8 @@
               "context": null,
               "code": "NEW_USER.register('default_items', null);",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "67b0518c-1ef6-465c-b8ed-408d43777079",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "a963dacb-42a2-4985-b501-da81b101f06f",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "34883a7e-4d2a-4126-ab73-618cbc2a4723",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -797,11 +538,7 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "UT : Add New Managers : Registration codes Validate successful new user account creation",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 12823,
-=======
-              "duration": 12577,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 13305,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -810,13 +547,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "a281bb1a-3877-4790-8d02-86a84deb2bcf",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "eb86db6c-3a19-4f91-9801-2791438f8d9a",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "481990c3-fff3-47ad-b49f-d59e65667644",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -824,11 +556,7 @@
               "title": "Validate existing user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate existing user",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 6318,
-=======
-              "duration": 6602,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 6106,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -837,13 +565,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "2615e6ec-96b2-4640-b1a8-0e8c13abac9e",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "ff385b5f-fb2d-4b09-8c13-05237044c496",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8e3ac73f-4587-43b1-88b9-6e5c111b8263",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -851,11 +574,7 @@
               "title": "Validate cancel adding new user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate cancel adding new user",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 302,
-=======
-              "duration": 272,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 331,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -864,13 +583,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('cancel_creating_user', null);",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "258ac29b-a160-4914-94b2-30c4794613b4",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "d240e681-843c-4cf4-9f0a-5ac5aa275719",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "bc98cfca-1871-4a19-afd0-0c0b9cf10f7c",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -878,11 +592,7 @@
               "title": "Check field validations",
               "fullTitle": "UT : Add New Managers : Registration codes Check field validations",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 1766,
-=======
-              "duration": 1739,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 1716,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -891,13 +601,8 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "217439a2-be91-4cdf-84fb-d310370449e9",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "4a27849b-579c-4933-9f7a-7431d338acae",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "3286ed50-becd-4130-bbcc-00e2c88b64d6",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -905,11 +610,7 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5639,
-=======
-              "duration": 5349,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5257,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -918,13 +619,8 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "68df7aae-4f71-45a3-ba98-dd3e3754cc07",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "14413510-1f49-465f-9e59-9294c7fe0215",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "209c5171-82f8-4699-af35-32bec8d5b941",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -932,11 +628,7 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching password and verify password fields",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 4817,
-=======
-              "duration": 4581,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 4489,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -945,13 +637,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "eb9c4e39-5f52-4778-9961-3728ca7fd9e1",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "424a945e-d591-4746-ab92-1ca05cb7be6e",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "ff3e8362-ce69-482c-8958-7a156f6de8f8",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -959,11 +646,7 @@
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 449,
-=======
-              "duration": 435,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 438,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -972,13 +655,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "002755da-5057-4fc6-b53a-40f65648ee27",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "24ec4161-f491-4874-91a2-f5905c14665e",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "048bf16a-0d16-457a-bbd5-c893ad696ccb",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -986,7 +664,7 @@
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
-              "duration": 476,
+              "duration": 461,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -995,13 +673,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "d818810c-a6f1-4a52-bf9b-b338e6eace73",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "255d9c41-db35-49ab-8b06-cb61e5d739ab",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8d1d35b6-6c37-4946-a88b-3d7c30c54699",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -1009,11 +682,7 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 539,
-=======
               "duration": 558,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1022,13 +691,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "49de28ba-fe14-4a6a-b112-592980aca5c9",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "ae2398ac-30ba-4e73-ae5b-bc9a67c40df6",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "d58454c4-33be-4972-b372-cacfa80757c3",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -1036,11 +700,7 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 564,
-=======
-              "duration": 579,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 546,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1049,13 +709,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "de8c1ea0-3cec-4a3f-a68b-32cc557b49c9",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "e282c967-9f11-4a6f-aab5-f79bea32b4e1",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "a3b0919a-cee2-4e85-8a09-424bfe48e9ee",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             },
@@ -1063,11 +718,7 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 681,
-=======
-              "duration": 682,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 693,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1076,55 +727,31 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "470e1584-22a4-4f28-bf3e-1de58a8f0205",
-              "parentUUID": "db5d8d6d-b3b5-48b8-beac-13c994bd5b2f",
-=======
-              "uuid": "1d458fb9-56c5-4825-b113-15d060b09f1a",
-              "parentUUID": "a22c7d5a-39e0-42c7-b06d-c16df9a2882f",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8129d9b6-9db4-4c86-8bfb-901d3b1d0c1b",
+              "parentUUID": "95340d7d-a664-468a-ab07-eda84f35200f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "67b0518c-1ef6-465c-b8ed-408d43777079",
-            "a281bb1a-3877-4790-8d02-86a84deb2bcf",
-            "2615e6ec-96b2-4640-b1a8-0e8c13abac9e",
-            "258ac29b-a160-4914-94b2-30c4794613b4",
-            "217439a2-be91-4cdf-84fb-d310370449e9",
-            "68df7aae-4f71-45a3-ba98-dd3e3754cc07",
-            "eb9c4e39-5f52-4778-9961-3728ca7fd9e1",
-            "002755da-5057-4fc6-b53a-40f65648ee27",
-            "d818810c-a6f1-4a52-bf9b-b338e6eace73",
-            "49de28ba-fe14-4a6a-b112-592980aca5c9",
-            "de8c1ea0-3cec-4a3f-a68b-32cc557b49c9",
-            "470e1584-22a4-4f28-bf3e-1de58a8f0205"
-=======
-            "a963dacb-42a2-4985-b501-da81b101f06f",
-            "eb86db6c-3a19-4f91-9801-2791438f8d9a",
-            "ff385b5f-fb2d-4b09-8c13-05237044c496",
-            "d240e681-843c-4cf4-9f0a-5ac5aa275719",
-            "4a27849b-579c-4933-9f7a-7431d338acae",
-            "14413510-1f49-465f-9e59-9294c7fe0215",
-            "424a945e-d591-4746-ab92-1ca05cb7be6e",
-            "24ec4161-f491-4874-91a2-f5905c14665e",
-            "255d9c41-db35-49ab-8b06-cb61e5d739ab",
-            "ae2398ac-30ba-4e73-ae5b-bc9a67c40df6",
-            "e282c967-9f11-4a6f-aab5-f79bea32b4e1",
-            "1d458fb9-56c5-4825-b113-15d060b09f1a"
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+            "34883a7e-4d2a-4126-ab73-618cbc2a4723",
+            "481990c3-fff3-47ad-b49f-d59e65667644",
+            "8e3ac73f-4587-43b1-88b9-6e5c111b8263",
+            "bc98cfca-1871-4a19-afd0-0c0b9cf10f7c",
+            "3286ed50-becd-4130-bbcc-00e2c88b64d6",
+            "209c5171-82f8-4699-af35-32bec8d5b941",
+            "ff3e8362-ce69-482c-8958-7a156f6de8f8",
+            "048bf16a-0d16-457a-bbd5-c893ad696ccb",
+            "8d1d35b6-6c37-4946-a88b-3d7c30c54699",
+            "d58454c4-33be-4972-b372-cacfa80757c3",
+            "a3b0919a-cee2-4e85-8a09-424bfe48e9ee",
+            "8129d9b6-9db4-4c86-8bfb-901d3b1d0c1b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 37403,
-=======
-          "duration": 36662,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 37000,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1140,219 +767,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "12c1f2e5-243a-4afb-843e-3d9ca73824d7",
-=======
-      "uuid": "bc838111-3e37-4ac8-8ac6-61598b58753f",
-      "title": "",
-      "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
-      "file": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "89b07db8-2647-457f-b09a-467dcb886980",
-          "title": "UT : Manager : Dashboard : Training",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Training : Default items should visible",
-              "fullTitle": "UT : Manager : Dashboard : Training Training : Default items should visible",
-              "timedOut": null,
-              "duration": 36040,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('default_items');",
-              "err": {},
-              "uuid": "5fd4561b-b94f-4181-b2f2-9950f7cec95e",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training : Check texts/labels if visible",
-              "fullTitle": "UT : Manager : Dashboard : Training Training : Check texts/labels if visible",
-              "timedOut": null,
-              "duration": 12337,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('default_texts');",
-              "err": {},
-              "uuid": "0b95b46b-ec9b-45b3-8462-cfa5b333a793",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training : Validate Cybersecurity Training Videos",
-              "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Cybersecurity Training Videos",
-              "timedOut": null,
-              "duration": 11613,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('security_training_videos');",
-              "err": {
-                "message": "TypeError: Cannot read properties of undefined (reading 'find')",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:317:69)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146100:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
-                "diff": null
-              },
-              "uuid": "be04b074-738e-4f7a-9b70-c9c50d35a677",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training : Validate Optional Manager Training",
-              "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Optional Manager Training",
-              "timedOut": null,
-              "duration": 11820,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('training_videos');",
-              "err": {
-                "message": "TypeError: Cannot read properties of undefined (reading 'find')",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:344:81)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146100:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
-                "diff": null
-              },
-              "uuid": "8430fbe7-3081-4ceb-99be-627cd5ed59b2",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training (EDGE) : Validate Security Quiz",
-              "fullTitle": "UT : Manager : Dashboard : Training Training (EDGE) : Validate Security Quiz",
-              "timedOut": null,
-              "duration": 6442,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('complete_security_quiz');",
-              "err": {},
-              "uuid": "b818794e-823b-4b54-8744-d3d4178ed4df",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training (EDGE) : Validate Reviewing Security Quiz",
-              "fullTitle": "UT : Manager : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
-              "timedOut": null,
-              "duration": 6867,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('review_security_quiz');",
-              "err": {},
-              "uuid": "6745e916-08f9-4210-9d0c-f3fc4e3045ac",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Training : Validate Step 3 - Print Your Certificate",
-              "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
-              "timedOut": null,
-              "duration": 19974,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('print_certificate');",
-              "err": {
-                "message": "AssertionError: expected '\\n\\nCERTIFICATE\\nOF ACHIEVEMENT\\nPROUDLY PRESENTED TO\\nUT manager Automation\\nFOR SUCCESSFUL COMPLETION OF THE COURSE:\\n2022 Cybersecurity Training\\nCOMPLETION GRADE: 100%\\nCOMPLETED ON: 2022-10-25\\nThis certificate was awarded by:\\nApril Partner Prod 7\\non behalf of:\\nUT Existing Client' to include 'UT Existing Client\\n'",
-                "estack": "AssertionError: expected '\\n\\nCERTIFICATE\\nOF ACHIEVEMENT\\nPROUDLY PRESENTED TO\\nUT manager Automation\\nFOR SUCCESSFUL COMPLETION OF THE COURSE:\\n2022 Cybersecurity Training\\nCOMPLETION GRADE: 100%\\nCOMPLETED ON: 2022-10-25\\nThis certificate was awarded by:\\nApril Partner Prod 7\\non behalf of:\\nUT Existing Client' to include 'UT Existing Client\\n'\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:474:63)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)",
-                "diff": null
-              },
-              "uuid": "a82a0880-1c68-4055-95d5-8b9fec16c4cb",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate Enrolled Courses",
-              "fullTitle": "UT : Manager : Dashboard : Training Validate Enrolled Courses",
-              "timedOut": null,
-              "duration": 14090,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.enrolledCourses();",
-              "err": {
-                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
-                "diff": null
-              },
-              "uuid": "f4617daf-1a39-4416-a581-d13962e89fea",
-              "parentUUID": "89b07db8-2647-457f-b09a-467dcb886980",
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "5fd4561b-b94f-4181-b2f2-9950f7cec95e",
-            "0b95b46b-ec9b-45b3-8462-cfa5b333a793",
-            "b818794e-823b-4b54-8744-d3d4178ed4df",
-            "6745e916-08f9-4210-9d0c-f3fc4e3045ac"
-          ],
-          "failures": [
-            "be04b074-738e-4f7a-9b70-c9c50d35a677",
-            "8430fbe7-3081-4ceb-99be-627cd5ed59b2",
-            "a82a0880-1c68-4055-95d5-8b9fec16c4cb",
-            "f4617daf-1a39-4416-a581-d13962e89fea"
-          ],
-          "pending": [],
-          "skipped": [],
-          "duration": 119183,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "1335ae2d-38d2-4e96-83c4-5d8e18791f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "a479db90-0a3b-45bd-8cc3-9f8062a6320d",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\company_dark_web.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\company_dark_web.cy.ts",
@@ -1361,11 +776,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-          "uuid": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
           "title": "UT : Manager : Company : Dark Web Monitoring",
           "fullFile": "",
           "file": "",
@@ -1376,11 +787,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager : Company : Dark Web Monitoring Default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 31745,
-=======
-              "duration": 30529,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 31360,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1389,13 +796,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('default_items');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "6623a422-2121-4a16-96d9-bcf3e471d7ae",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "bf2d345f-e010-449f-9bff-b7cf21682c00",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "f16064b1-d4d7-4b74-8c58-48b4eb560c41",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": false
             },
@@ -1403,11 +805,7 @@
               "title": "Generate Reports",
               "fullTitle": "UT : Manager : Company : Dark Web Monitoring Generate Reports",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 5283,
-=======
-              "duration": 5224,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 5245,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1417,16 +815,11 @@
               "code": "DARK_WEB.validateScenario('api_report');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `domains_list`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `domains_list`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `domains_list`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137464:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137490:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145846:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145787:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-<<<<<<< HEAD
-              "uuid": "721fe96f-ca9c-4c0e-89e9-30baf8b38d53",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "1c141bcf-154f-49c5-8f21-412327a3a9d6",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "65875225-fda8-4686-b732-945d5bb29295",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": false
             },
@@ -1443,13 +836,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "513d7c2b-8fd0-40b9-af60-7ee9e39cbf71",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "0f5940ea-8c2c-48a2-9b9f-1088ba2f3857",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "1b034192-1030-480c-ba35-03d6f4bc2526",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1466,13 +854,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('refresh_session_event');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "ba927dca-55dd-4a7a-a921-8b59582f872e",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "2dd76f32-4cde-4ed7-9d6c-08b6472d417e",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "3fd15812-5427-4fa1-a765-766e44ddcbff",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1489,13 +872,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unregistered_domains');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "02d73e14-bf77-4b55-a859-33146e64fa15",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "67ba576f-52ea-4f57-83f3-9eda76f8f26b",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "4930a623-78db-40fc-bb77-2bdc229ce5bc",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1512,13 +890,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unlisted_site_breached');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "b042cb48-b477-4feb-87eb-bd35cfaace81",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "85fc9a98-502b-499a-bc17-d860abb03311",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "d0c1235d-c64c-452b-8dfb-1555cb6e4d14",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1535,13 +908,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_breach_date');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "85d30feb-3f19-4f5e-ad9a-8fb1c76fd22c",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "c6b9c156-052d-4681-b4b1-99f8d61e88cd",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "07fe09f0-f71e-40d8-a8ec-e1169bb59050",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1558,13 +926,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('obfuscate_password');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "ff3de2f0-da32-4f73-8196-d1984b123867",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "29ee9ea3-28d1-4efe-85ff-fad0e829672a",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8525c0db-f093-4cb6-b58f-9a764beea6c6",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1581,13 +944,8 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('non_redacted_password');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "4a4ea61a-c684-4948-9ed2-a44db9585a21",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "f93f36bf-c44b-4571-8e7c-039d51a8bb57",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "0dace093-57ab-44c0-941c-66771344a1e2",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             },
@@ -1604,56 +962,31 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "6c8b9acd-bb7a-4ab6-9510-7fdacb2bc603",
-              "parentUUID": "014d1ec1-69da-4f93-9681-7cbf9e978de8",
-=======
-              "uuid": "395d4f83-6f8e-4c5d-9f20-448ddbf0d695",
-              "parentUUID": "82f506c3-0551-4aee-8846-0490b7536873",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "fabe458e-d9c1-4454-aff7-cb9b4a25b8a4",
+              "parentUUID": "fa50ad9f-162f-44a2-922c-b05dbe22c506",
               "isHook": false,
               "skipped": true
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "6623a422-2121-4a16-96d9-bcf3e471d7ae"
+            "f16064b1-d4d7-4b74-8c58-48b4eb560c41"
           ],
           "failures": [
-            "721fe96f-ca9c-4c0e-89e9-30baf8b38d53"
+            "65875225-fda8-4686-b732-945d5bb29295"
           ],
           "pending": [],
           "skipped": [
-            "513d7c2b-8fd0-40b9-af60-7ee9e39cbf71",
-            "ba927dca-55dd-4a7a-a921-8b59582f872e",
-            "02d73e14-bf77-4b55-a859-33146e64fa15",
-            "b042cb48-b477-4feb-87eb-bd35cfaace81",
-            "85d30feb-3f19-4f5e-ad9a-8fb1c76fd22c",
-            "ff3de2f0-da32-4f73-8196-d1984b123867",
-            "4a4ea61a-c684-4948-9ed2-a44db9585a21",
-            "6c8b9acd-bb7a-4ab6-9510-7fdacb2bc603"
+            "1b034192-1030-480c-ba35-03d6f4bc2526",
+            "3fd15812-5427-4fa1-a765-766e44ddcbff",
+            "4930a623-78db-40fc-bb77-2bdc229ce5bc",
+            "d0c1235d-c64c-452b-8dfb-1555cb6e4d14",
+            "07fe09f0-f71e-40d8-a8ec-e1169bb59050",
+            "8525c0db-f093-4cb6-b58f-9a764beea6c6",
+            "0dace093-57ab-44c0-941c-66771344a1e2",
+            "fabe458e-d9c1-4454-aff7-cb9b4a25b8a4"
           ],
-          "duration": 37028,
-=======
-            "bf2d345f-e010-449f-9bff-b7cf21682c00"
-          ],
-          "failures": [
-            "1c141bcf-154f-49c5-8f21-412327a3a9d6"
-          ],
-          "pending": [],
-          "skipped": [
-            "0f5940ea-8c2c-48a2-9b9f-1088ba2f3857",
-            "2dd76f32-4cde-4ed7-9d6c-08b6472d417e",
-            "67ba576f-52ea-4f57-83f3-9eda76f8f26b",
-            "85fc9a98-502b-499a-bc17-d860abb03311",
-            "c6b9c156-052d-4681-b4b1-99f8d61e88cd",
-            "29ee9ea3-28d1-4efe-85ff-fad0e829672a",
-            "f93f36bf-c44b-4571-8e7c-039d51a8bb57",
-            "395d4f83-6f8e-4c5d-9f20-448ddbf0d695"
-          ],
-          "duration": 35753,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 36605,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1669,8 +1002,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "eaf15b73-4848-4a6c-b8cc-eb1c819879c2",
+      "uuid": "dc7f1575-fac7-40d8-a5e2-c0a137e07f29",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-dashboard\\manager_training.cy.ts",
@@ -1679,7 +1011,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+          "uuid": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
           "title": "UT : Manager : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -1690,7 +1022,7 @@
               "title": "Training : Default items should visible",
               "fullTitle": "UT : Manager : Dashboard : Training Training : Default items should visible",
               "timedOut": null,
-              "duration": 35899,
+              "duration": 36545,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1699,8 +1031,8 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_items');",
               "err": {},
-              "uuid": "02ab6b0e-8d2a-41e0-be76-9d2e91b1597c",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "f7a5b22e-f422-4002-a4fb-3d926d2d368e",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1708,7 +1040,7 @@
               "title": "Training : Check texts/labels if visible",
               "fullTitle": "UT : Manager : Dashboard : Training Training : Check texts/labels if visible",
               "timedOut": null,
-              "duration": 12485,
+              "duration": 11492,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1717,8 +1049,8 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
-              "uuid": "be637c1f-5371-42d8-b174-f1c2f00be70b",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "d0ffd5f2-6572-486f-9c53-06e4573ef550",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1726,7 +1058,7 @@
               "title": "Training : Validate Cybersecurity Training Videos",
               "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Cybersecurity Training Videos",
               "timedOut": null,
-              "duration": 12052,
+              "duration": 11016,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1736,11 +1068,11 @@
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {
                 "message": "TypeError: Cannot read properties of undefined (reading 'find')",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:317:69)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146100:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:317:69)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146118:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
                 "diff": null
               },
-              "uuid": "6cd98985-1d6f-4170-88ed-c9c69c9bc610",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "c201d94c-1e32-4fda-9ae4-6e17eefdbe1f",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1748,7 +1080,7 @@
               "title": "Training : Validate Optional Manager Training",
               "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Optional Manager Training",
               "timedOut": null,
-              "duration": 13437,
+              "duration": 9952,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1758,11 +1090,11 @@
               "code": "TRAINING.completedCourses('training_videos');",
               "err": {
                 "message": "TypeError: Cannot read properties of undefined (reading 'find')",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:344:81)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146100:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'find')\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:344:81)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146118:15)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)",
                 "diff": null
               },
-              "uuid": "3d01c0d0-b525-40ed-b2a5-6a5dbc65b1b7",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "42cc3f58-841c-4f62-b2e8-47ead77e7876",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1770,7 +1102,7 @@
               "title": "Training (EDGE) : Validate Security Quiz",
               "fullTitle": "UT : Manager : Dashboard : Training Training (EDGE) : Validate Security Quiz",
               "timedOut": null,
-              "duration": 6650,
+              "duration": 7215,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1779,8 +1111,8 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
-              "uuid": "e8ad34f6-0094-466a-8514-62e81cf7ea65",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "29f3b9fa-7405-4013-a6a8-57dfd80a44b3",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1788,7 +1120,7 @@
               "title": "Training (EDGE) : Validate Reviewing Security Quiz",
               "fullTitle": "UT : Manager : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
               "timedOut": null,
-              "duration": 6688,
+              "duration": 7801,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1797,8 +1129,8 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
-              "uuid": "310dc92f-7439-4175-8365-dff94d70aa01",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "519b2fdc-d7b6-42fa-8c4f-570b373c2f42",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1806,7 +1138,7 @@
               "title": "Training : Validate Step 3 - Print Your Certificate",
               "fullTitle": "UT : Manager : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
               "timedOut": null,
-              "duration": 15981,
+              "duration": 17494,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1819,8 +1151,8 @@
                 "estack": "AssertionError: expected '\\n\\nCERTIFICATE\\nOF ACHIEVEMENT\\nPROUDLY PRESENTED TO\\nUT manager Automation\\nFOR SUCCESSFUL COMPLETION OF THE COURSE:\\n2022 Cybersecurity Training\\nCOMPLETION GRADE: 100%\\nCOMPLETED ON: 2022-10-25\\nThis certificate was awarded by:\\nApril Partner Prod 7\\non behalf of:\\nUT Existing Client' to include 'UT Existing Client\\n'\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:474:63)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)",
                 "diff": null
               },
-              "uuid": "a281a9c6-fd87-4a47-90e5-844528b2e5c6",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "6c6e61b0-ad88-4e55-9ada-db20cbe311a3",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             },
@@ -1828,7 +1160,7 @@
               "title": "Validate Enrolled Courses",
               "fullTitle": "UT : Manager : Dashboard : Training Validate Enrolled Courses",
               "timedOut": null,
-              "duration": 15667,
+              "duration": 14872,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1838,31 +1170,31 @@
               "code": "TRAINING.enrolledCourses();",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137464:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137490:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145846:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145787:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "f5d61397-2a37-448f-8981-d2d67e20a6c2",
-              "parentUUID": "7ef8bbbd-cb4e-452f-97e6-50951adcc707",
+              "uuid": "b0645a91-52c1-4bc2-a014-3f0081ce7265",
+              "parentUUID": "cca339c7-2f59-40db-9d2c-faf33cc3735a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "02ab6b0e-8d2a-41e0-be76-9d2e91b1597c",
-            "be637c1f-5371-42d8-b174-f1c2f00be70b",
-            "e8ad34f6-0094-466a-8514-62e81cf7ea65",
-            "310dc92f-7439-4175-8365-dff94d70aa01"
+            "f7a5b22e-f422-4002-a4fb-3d926d2d368e",
+            "d0ffd5f2-6572-486f-9c53-06e4573ef550",
+            "29f3b9fa-7405-4013-a6a8-57dfd80a44b3",
+            "519b2fdc-d7b6-42fa-8c4f-570b373c2f42"
           ],
           "failures": [
-            "6cd98985-1d6f-4170-88ed-c9c69c9bc610",
-            "3d01c0d0-b525-40ed-b2a5-6a5dbc65b1b7",
-            "a281a9c6-fd87-4a47-90e5-844528b2e5c6",
-            "f5d61397-2a37-448f-8981-d2d67e20a6c2"
+            "c201d94c-1e32-4fda-9ae4-6e17eefdbe1f",
+            "42cc3f58-841c-4f62-b2e8-47ead77e7876",
+            "6c6e61b0-ad88-4e55-9ada-db20cbe311a3",
+            "b0645a91-52c1-4bc2-a014-3f0081ce7265"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 118859,
+          "duration": 116387,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1878,10 +1210,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "5269092b-36ce-4263-a17d-e2f717853680",
-=======
-      "uuid": "37ea5087-8114-4d35-bc77-36da545a258b",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "3247b79a-4686-49e1-8352-18c2bfe79ec6",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\employee.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\employee.cy.ts",
@@ -1890,11 +1219,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-          "uuid": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "32231108-845e-4b38-bd85-70673feca704",
           "title": "UT : Manager : Company : Employee",
           "fullFile": "",
           "file": "",
@@ -1905,11 +1230,7 @@
               "title": "Validated default items should visible",
               "fullTitle": "UT : Manager : Company : Employee Validated default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 46970,
-=======
-              "duration": 48737,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 49034,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1919,16 +1240,11 @@
               "code": "EMPLOYEES.validateItems('verify-items-if-exist', 'UT', 'M', 'employees');",
               "err": {
                 "message": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137464:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137490:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145846:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145787:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-<<<<<<< HEAD
-              "uuid": "e2ab91c6-d10e-4a4d-ad17-d5dbaf9abc8b",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "37b6bf01-2a15-4732-9f2b-546a2e1df87d",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "d3ed2122-4f20-4a7d-b7df-07a7858fc12a",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -1936,11 +1252,7 @@
               "title": "Validate all text must contains",
               "fullTitle": "UT : Manager : Company : Employee Validate all text must contains",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 23558,
-=======
-              "duration": 22858,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 24051,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1950,16 +1262,11 @@
               "code": "EMPLOYEES.validateItems('verify-text-contains', 'UT', 'M', 'employees');",
               "err": {
                 "message": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `directorySync`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137464:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137490:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145846:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145787:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-<<<<<<< HEAD
-              "uuid": "ae20d3eb-9b4a-4b95-b84a-79470666907e",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "94e44634-6afb-4371-80a0-689e7a3bb474",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "250edebf-6859-45a2-aae2-192a9635c848",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -1967,11 +1274,7 @@
               "title": "Validate create Manager user",
               "fullTitle": "UT : Manager : Company : Employee Validate create Manager user",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 65438,
-=======
-              "duration": 63682,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 64007,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1980,13 +1283,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'MANAGER', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "a230459f-1634-4517-bfb8-ce34601369ef",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "dc079690-c326-4fb1-9e45-2680a1a12482",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "ac20b1de-fa53-4eca-a677-06db9a2baeba",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -1994,11 +1292,7 @@
               "title": "Validate search created Manager User",
               "fullTitle": "UT : Manager : Company : Employee Validate search created Manager User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 54793,
-=======
-              "duration": 54024,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 55317,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -2008,16 +1302,11 @@
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'MANAGER', 'employees');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''",
-                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:970:90)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:970:90)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)",
                 "diff": "+ '350'\n"
               },
-<<<<<<< HEAD
-              "uuid": "2b572288-4ef7-4f7e-ac48-ec634faa6b85",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "529f54c5-9852-438b-bb34-a436836a3e05",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e27ef273-d536-4cdc-a079-6e2407c2c480",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2025,11 +1314,7 @@
               "title": "Validate update Manager User",
               "fullTitle": "UT : Manager : Company : Employee Validate update Manager User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 68591,
-=======
-              "duration": 68010,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 67716,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2038,13 +1323,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "cce1f0d2-d8ab-4bda-b910-e497329a1ecf",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "7f44af49-5bc0-4b8d-a311-c11f27efac02",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "dc329b2e-9138-4b9c-aa57-6fb29f5eb0e9",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2052,11 +1332,7 @@
               "title": "Validate delete Manager User",
               "fullTitle": "UT : Manager : Company : Employee Validate delete Manager User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 29098,
-=======
-              "duration": 28342,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 28493,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2065,13 +1341,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "03ee7a54-9f82-4672-a6c8-494d860f04d2",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "7a764833-33bf-4499-bf87-4f2a7d3b1dff",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "2b817ccc-4c7b-43b7-9eab-6096217d9362",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2079,11 +1350,7 @@
               "title": "Validate create Employee user",
               "fullTitle": "UT : Manager : Company : Employee Validate create Employee user",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 65583,
-=======
-              "duration": 64880,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 66504,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2092,13 +1359,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "19eb962a-6361-4c77-af9e-2db1a29005c5",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "2bd8b844-e3ff-4403-bd98-aa148752490e",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "6b1da15b-dda1-48c1-a7f1-a0352b394d68",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2106,11 +1368,7 @@
               "title": "Validate search created Employee User",
               "fullTitle": "UT : Manager : Company : Employee Validate search created Employee User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 55647,
-=======
-              "duration": 54774,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 55142,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -2120,16 +1378,11 @@
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'EMPLOYEE', 'employees');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''",
-                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:970:90)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-215.MuiTableCell-body-217.ComponentTypes__TableCellContent-sc-nb4o94-12.eljMBW.MuiTableCell-alignLeft-222>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:970:90)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)",
                 "diff": "+ '350'\n"
               },
-<<<<<<< HEAD
-              "uuid": "06e2bb77-d1d6-46fc-803d-55a2d138f97f",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "10c790cc-8d63-43a5-b254-ee99754c05f4",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "a285e669-97f3-421d-99b4-c94a3b12b1fb",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2137,11 +1390,7 @@
               "title": "Validate update Employee User",
               "fullTitle": "UT : Manager : Company : Employee Validate update Employee User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 69912,
-=======
-              "duration": 68395,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 68948,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2150,13 +1399,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "3df52e41-8013-484f-bc4b-6cb34eb8a5ee",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "9e024ffd-36f8-4f02-a7ae-af2339c81832",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "20bee5c9-c2b3-4ff9-8d54-ca60575988ee",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2164,11 +1408,7 @@
               "title": "Validate delete Employee User",
               "fullTitle": "UT : Manager : Company : Employee Validate delete Employee User",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 29067,
-=======
-              "duration": 28303,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 29154,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2177,13 +1417,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "0649e8a5-ee53-4234-b36a-61e1ec8e00ca",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "41d039db-4204-44e1-b4c9-f30a120e72c1",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e003433c-49ef-47ef-9271-f7d6381bb9cb",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2191,11 +1426,7 @@
               "title": "Negative - Validated search unregistered users",
               "fullTitle": "UT : Manager : Company : Employee Negative - Validated search unregistered users",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 17310,
-=======
-              "duration": 15842,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 16436,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2204,13 +1435,8 @@
               "context": null,
               "code": "EMPLOYEES.searchScenarios('unregistered-user', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "36e8f384-8ac6-42a4-bb08-6a683c751410",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "78dd8cdd-7bc1-4763-b54d-73d2e3260f7f",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "33b3a10b-03bf-47c2-a296-f41323d59370",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2218,11 +1444,7 @@
               "title": "Validate enable send welcome message",
               "fullTitle": "UT : Manager : Company : Employee Validate enable send welcome message",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 46021,
-=======
-              "duration": 44523,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 44930,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -2232,16 +1454,11 @@
               "code": "EMPLOYEES.welcomeMessage('enable', 'employees');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[name=\"check_password\"]`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[name=\"check_password\"]`, but never found it.\n    at employeeUsersTab.get (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:122:34)\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:1307:33)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140155:19)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[name=\"check_password\"]`, but never found it.\n    at employeeUsersTab.get (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:122:34)\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:1307:33)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:140173:19)",
                 "diff": null
               },
-<<<<<<< HEAD
-              "uuid": "31dc7f52-5bce-4de1-a74c-bb347db53fa5",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "373101f0-8dd8-4ab0-b6f4-bc1d47c5147c",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "fa8d04a1-bbd4-4636-b72d-4163cb268299",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2249,11 +1466,7 @@
               "title": "Validate disable send welcome message",
               "fullTitle": "UT : Manager : Company : Employee Validate disable send welcome message",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 15329,
-=======
-              "duration": 14918,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 14180,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2262,13 +1475,8 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('disable', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "16d7724a-fb05-4189-bd0c-d8e105bcb30a",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "a31e5939-45bb-480f-869d-61f4bcc5a281",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "3e92d2d2-9d88-4722-82a3-3d6d15954d4d",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2276,11 +1484,7 @@
               "title": "Criteria: Validate `Error: A user with a matching....` must be displayed after creating a client that already exists within deleted filter",
               "fullTitle": "UT : Manager : Company : Employee Criteria: Validate `Error: A user with a matching....` must be displayed after creating a client that already exists within deleted filter",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 37307,
-=======
-              "duration": 35070,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 35531,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2289,13 +1493,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create_deleted_user', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "b32e2049-9e6b-464d-959a-a489be494fee",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "eecf3087-8770-4ea4-826e-b83d46078deb",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "d4c875c3-3794-4d12-9a20-145219f42d94",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2303,11 +1502,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Removes filter]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Removes filter]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 37851,
-=======
-              "duration": 35644,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 37673,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2316,13 +1511,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('remove_filter', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "5b312665-38c9-4113-9b2c-4a4afb625968",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "42cba669-3fd5-446e-8a61-8ff7074cb67f",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e0082788-0a29-42c3-95f9-710c5b75dc65",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2330,11 +1520,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Refresh the browser]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Refresh the browser]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 40668,
-=======
-              "duration": 37297,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 39477,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2343,13 +1529,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('reload_webpage', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "68d88afb-4a00-4d69-97b6-9e0e45d2b10e",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "f7a1d381-afec-4347-8aaf-b7a61897f77a",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "46c9fcf8-3dbd-4bfc-bf15-c96a35e4e894",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2357,11 +1538,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Search for a user]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Search for a user]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 38111,
-=======
-              "duration": 35926,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 36459,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2370,13 +1547,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search_user', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "869f8e3a-9c0f-47bc-af7c-4b86bfe58920",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "afa8ea3b-f760-4365-b54f-1a9d79fa805c",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "93e768a3-0a33-4ca5-9600-5c58455ab84f",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2384,11 +1556,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Pagination]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Pagination]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 38986,
-=======
-              "duration": 37155,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 38394,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2397,13 +1565,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('paginate', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "3173fc4d-168b-40f2-a90e-6c2ab94af9d3",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "f43662a6-c431-4d2c-9bcc-2bb62b465bbd",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "601921ba-f04c-4812-85a5-a8a699051c51",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2411,11 +1574,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Filter any option]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Filter any option]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 37604,
-=======
-              "duration": 36814,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 37001,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2424,13 +1583,8 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('addFilter', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "c7f19b62-3f3c-4f42-b4ac-27f59465c763",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "648c7336-19b2-4fbf-99e2-8b12efdba867",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "7e246dd6-ec45-42a7-8681-f231aa30efe9",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             },
@@ -2438,11 +1592,7 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Download Client Report]",
               "fullTitle": "UT : Manager : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Download Client Report]",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 38836,
-=======
-              "duration": 37225,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 38940,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2451,74 +1601,40 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('downloadClientReport', 'EMPLOYEE', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "26985cb9-16f9-4f7c-8350-efe7e43677cc",
-              "parentUUID": "2eeb73a9-c5dc-495b-bf88-5bf074818225",
-=======
-              "uuid": "1e9dc3ea-7a8e-44ff-be9c-ab26ca1d3fd1",
-              "parentUUID": "bca18753-6015-418c-a34f-4dc82823f86c",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "fe49fb44-0971-4ccd-af86-e729c42294f8",
+              "parentUUID": "32231108-845e-4b38-bd85-70673feca704",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "a230459f-1634-4517-bfb8-ce34601369ef",
-            "cce1f0d2-d8ab-4bda-b910-e497329a1ecf",
-            "03ee7a54-9f82-4672-a6c8-494d860f04d2",
-            "19eb962a-6361-4c77-af9e-2db1a29005c5",
-            "3df52e41-8013-484f-bc4b-6cb34eb8a5ee",
-            "0649e8a5-ee53-4234-b36a-61e1ec8e00ca",
-            "36e8f384-8ac6-42a4-bb08-6a683c751410",
-            "16d7724a-fb05-4189-bd0c-d8e105bcb30a",
-            "b32e2049-9e6b-464d-959a-a489be494fee",
-            "5b312665-38c9-4113-9b2c-4a4afb625968",
-            "68d88afb-4a00-4d69-97b6-9e0e45d2b10e",
-            "869f8e3a-9c0f-47bc-af7c-4b86bfe58920",
-            "3173fc4d-168b-40f2-a90e-6c2ab94af9d3",
-            "c7f19b62-3f3c-4f42-b4ac-27f59465c763",
-            "26985cb9-16f9-4f7c-8350-efe7e43677cc"
+            "ac20b1de-fa53-4eca-a677-06db9a2baeba",
+            "dc329b2e-9138-4b9c-aa57-6fb29f5eb0e9",
+            "2b817ccc-4c7b-43b7-9eab-6096217d9362",
+            "6b1da15b-dda1-48c1-a7f1-a0352b394d68",
+            "20bee5c9-c2b3-4ff9-8d54-ca60575988ee",
+            "e003433c-49ef-47ef-9271-f7d6381bb9cb",
+            "33b3a10b-03bf-47c2-a296-f41323d59370",
+            "3e92d2d2-9d88-4722-82a3-3d6d15954d4d",
+            "d4c875c3-3794-4d12-9a20-145219f42d94",
+            "e0082788-0a29-42c3-95f9-710c5b75dc65",
+            "46c9fcf8-3dbd-4bfc-bf15-c96a35e4e894",
+            "93e768a3-0a33-4ca5-9600-5c58455ab84f",
+            "601921ba-f04c-4812-85a5-a8a699051c51",
+            "7e246dd6-ec45-42a7-8681-f231aa30efe9",
+            "fe49fb44-0971-4ccd-af86-e729c42294f8"
           ],
           "failures": [
-            "e2ab91c6-d10e-4a4d-ad17-d5dbaf9abc8b",
-            "ae20d3eb-9b4a-4b95-b84a-79470666907e",
-            "2b572288-4ef7-4f7e-ac48-ec634faa6b85",
-            "06e2bb77-d1d6-46fc-803d-55a2d138f97f",
-            "31dc7f52-5bce-4de1-a74c-bb347db53fa5"
+            "d3ed2122-4f20-4a7d-b7df-07a7858fc12a",
+            "250edebf-6859-45a2-aae2-192a9635c848",
+            "e27ef273-d536-4cdc-a079-6e2407c2c480",
+            "a285e669-97f3-421d-99b4-c94a3b12b1fb",
+            "fa8d04a1-bbd4-4636-b72d-4163cb268299"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 856680,
-=======
-            "dc079690-c326-4fb1-9e45-2680a1a12482",
-            "7f44af49-5bc0-4b8d-a311-c11f27efac02",
-            "7a764833-33bf-4499-bf87-4f2a7d3b1dff",
-            "2bd8b844-e3ff-4403-bd98-aa148752490e",
-            "9e024ffd-36f8-4f02-a7ae-af2339c81832",
-            "41d039db-4204-44e1-b4c9-f30a120e72c1",
-            "78dd8cdd-7bc1-4763-b54d-73d2e3260f7f",
-            "a31e5939-45bb-480f-869d-61f4bcc5a281",
-            "eecf3087-8770-4ea4-826e-b83d46078deb",
-            "42cba669-3fd5-446e-8a61-8ff7074cb67f",
-            "f7a1d381-afec-4347-8aaf-b7a61897f77a",
-            "afa8ea3b-f760-4365-b54f-1a9d79fa805c",
-            "f43662a6-c431-4d2c-9bcc-2bb62b465bbd",
-            "648c7336-19b2-4fbf-99e2-8b12efdba867",
-            "1e9dc3ea-7a8e-44ff-be9c-ab26ca1d3fd1"
-          ],
-          "failures": [
-            "37b6bf01-2a15-4732-9f2b-546a2e1df87d",
-            "94e44634-6afb-4371-80a0-689e7a3bb474",
-            "529f54c5-9852-438b-bb34-a436836a3e05",
-            "10c790cc-8d63-43a5-b254-ee99754c05f4",
-            "373101f0-8dd8-4ab0-b6f4-bc1d47c5147c"
-          ],
-          "pending": [],
-          "skipped": [],
-          "duration": 832419,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 847387,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2534,11 +1650,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "21b4e34e-255a-47e4-9ada-f16f0b4bc467",
-=======
-      "uuid": "3d462475-5bcf-45a0-9be4-aad3a6b2e870",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "85e0172a-10c9-4353-8ef5-673f3ffbc90d",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\tags.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\employee\\tags.cy.ts",
@@ -2547,11 +1659,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-          "uuid": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
           "title": "UT: Manager : My Company : Tags",
           "fullFile": "",
           "file": "",
@@ -2562,11 +1670,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT: Manager : My Company : Tags Default items should visible",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 41105,
-=======
-              "duration": 41441,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 38999,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2575,13 +1679,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-default-items', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "5a4e52f1-5cbd-4d8e-9838-0c6dafde7372",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "f5c99cfd-8e7d-4c85-911a-eb0d21674035",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e7592dbb-9a15-4d8b-9392-32e8ba58b6d7",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2589,11 +1688,7 @@
               "title": "Validate create new tag",
               "fullTitle": "UT: Manager : My Company : Tags Validate create new tag",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 20932,
-=======
-              "duration": 20464,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 21017,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2602,13 +1697,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-create-new-tag', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "7710650c-3244-4e4e-8def-d1e4a94c021b",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "e129fcb7-141b-43f7-ad8e-de01fc06dd45",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "daca0031-d41c-4cad-b4ec-60ab5f607d38",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2616,11 +1706,7 @@
               "title": "Validate update created tag",
               "fullTitle": "UT: Manager : My Company : Tags Validate update created tag",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 20321,
-=======
-              "duration": 20269,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 19676,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2629,13 +1715,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-update-created-tag', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "dd0688ed-4f4d-49ce-8a55-599de0d0586e",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "1ee9ed05-3964-4aff-b851-a282d8edf3c3",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "4aadd488-513d-4d40-aaff-b8f858bb3447",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2643,11 +1724,7 @@
               "title": "Validate delete created tag",
               "fullTitle": "UT: Manager : My Company : Tags Validate delete created tag",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 21962,
-=======
-              "duration": 20556,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 20053,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2656,13 +1733,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-delete-created-tag', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "9b3538b7-28f6-4ce9-a0b5-5810b10493e0",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "3112897b-9b0a-43a9-aa28-57edd6c311af",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "19d7e3d2-c11b-449a-83a3-2a499b952f6e",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2670,11 +1742,7 @@
               "title": "OOTB - Validate duplicate Tag should not be accepted",
               "fullTitle": "UT: Manager : My Company : Tags OOTB - Validate duplicate Tag should not be accepted",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 19720,
-=======
-              "duration": 18748,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 17348,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2683,13 +1751,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-existing-tags', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "76a4b9f0-149a-4527-a21e-52a39c8c48e8",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "1c66bb4c-de0a-4d67-9002-a2df07ff0b55",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e2cc4834-9104-4177-80d9-a3268719857a",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2697,11 +1760,7 @@
               "title": "Negative - Validate cancel creating tags",
               "fullTitle": "UT: Manager : My Company : Tags Negative - Validate cancel creating tags",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 16339,
-=======
-              "duration": 17057,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 16829,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2710,13 +1769,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('cancel-create-tags', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "388b96f3-976b-4c69-9752-65fd4258fb49",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "86591983-e3f8-4926-b77e-ceba379ba27f",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "9a31e647-bc00-4033-b6ca-dcdcb46eb974",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2724,11 +1778,7 @@
               "title": "Negative - Validate save button when editing tags with empty value",
               "fullTitle": "UT: Manager : My Company : Tags Negative - Validate save button when editing tags with empty value",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 17543,
-=======
-              "duration": 16725,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 16274,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2737,13 +1787,8 @@
               "context": null,
               "code": "TAGS.tagsScenarios('update-empty-value', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "45345336-1a8b-471d-a636-118a5d6d4e67",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "ab666cec-c034-4466-acec-2e2888f121f7",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "8b786010-3282-4eb3-856a-94797f1f40f4",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             },
@@ -2751,11 +1796,7 @@
               "title": "Negative - Validate save button is disabled when creating tags with empty value",
               "fullTitle": "UT: Manager : My Company : Tags Negative - Validate save button is disabled when creating tags with empty value",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 16703,
-=======
-              "duration": 16402,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 14725,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2764,47 +1805,27 @@
               "context": null,
               "code": "TAGS.tagsScenarios('create-empty-value', 'employees');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "6e023ebe-4b2f-4388-9b98-a675293367f9",
-              "parentUUID": "c0e0817d-0584-40ae-85b9-a3415163e65c",
-=======
-              "uuid": "7fc2bf9d-7b77-4ada-8f24-615c38371fc0",
-              "parentUUID": "ef589e1a-8866-4db2-bf07-b4718ad90cfe",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "913afe6c-0c66-434c-99b4-baa59e7f81a8",
+              "parentUUID": "530fbbad-c05f-4558-b96d-ffb6a8410e66",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "5a4e52f1-5cbd-4d8e-9838-0c6dafde7372",
-            "7710650c-3244-4e4e-8def-d1e4a94c021b",
-            "dd0688ed-4f4d-49ce-8a55-599de0d0586e",
-            "9b3538b7-28f6-4ce9-a0b5-5810b10493e0",
-            "76a4b9f0-149a-4527-a21e-52a39c8c48e8",
-            "388b96f3-976b-4c69-9752-65fd4258fb49",
-            "45345336-1a8b-471d-a636-118a5d6d4e67",
-            "6e023ebe-4b2f-4388-9b98-a675293367f9"
-=======
-            "f5c99cfd-8e7d-4c85-911a-eb0d21674035",
-            "e129fcb7-141b-43f7-ad8e-de01fc06dd45",
-            "1ee9ed05-3964-4aff-b851-a282d8edf3c3",
-            "3112897b-9b0a-43a9-aa28-57edd6c311af",
-            "1c66bb4c-de0a-4d67-9002-a2df07ff0b55",
-            "86591983-e3f8-4926-b77e-ceba379ba27f",
-            "ab666cec-c034-4466-acec-2e2888f121f7",
-            "7fc2bf9d-7b77-4ada-8f24-615c38371fc0"
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+            "e7592dbb-9a15-4d8b-9392-32e8ba58b6d7",
+            "daca0031-d41c-4cad-b4ec-60ab5f607d38",
+            "4aadd488-513d-4d40-aaff-b8f858bb3447",
+            "19d7e3d2-c11b-449a-83a3-2a499b952f6e",
+            "e2cc4834-9104-4177-80d9-a3268719857a",
+            "9a31e647-bc00-4033-b6ca-dcdcb46eb974",
+            "8b786010-3282-4eb3-856a-94797f1f40f4",
+            "913afe6c-0c66-434c-99b4-baa59e7f81a8"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 174625,
-=======
-          "duration": 171662,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 164921,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2820,11 +1841,7 @@
       "_timeout": 2000
     },
     {
-<<<<<<< HEAD
-      "uuid": "a8afb12b-6333-4d70-b3a5-67583f76b549",
-=======
-      "uuid": "0cb23977-4555-468f-a672-17996a08f3d4",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+      "uuid": "b5a4fb1d-db93-407c-b9ff-838fdfccf6dd",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager\\my-company\\training-reports\\annual.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager\\my-company\\training-reports\\annual.cy.ts",
@@ -2833,11 +1850,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-          "uuid": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "uuid": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
           "title": "UT : Manager : Company : Training Reports : Annual",
           "fullFile": "",
           "file": "",
@@ -2848,11 +1861,7 @@
               "title": "Validate must exist items inside Training Reports",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate must exist items inside Training Reports",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 33012,
-=======
-              "duration": 33382,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 32366,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2861,13 +1870,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('validate-items', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "de316949-912a-403f-bb77-c1ee45c2a950",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "292d62e4-dc0f-46ea-9d01-56cdcf2ecdfd",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "39550a35-c118-485c-9c99-8a016137269a",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -2875,11 +1879,7 @@
               "title": "Validate viewing certificates done by all users in 2023 Cybersecurity Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate viewing certificates done by all users in 2023 Cybersecurity Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 73563,
-=======
-              "duration": 72698,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 78706,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2888,13 +1888,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "4c5f592b-8eb9-4593-909c-9506898e90d7",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "c4c1e57e-91b8-4fbb-a59f-d1f82ac5b1de",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "42e90ad0-76f9-4f61-ba80-9842ec1b8bc4",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -2902,11 +1897,7 @@
               "title": "Validate viewing certificates done by all users in 2023 Cyber Manager Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate viewing certificates done by all users in 2023 Cyber Manager Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 53438,
-=======
-              "duration": 55798,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 53925,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2915,13 +1906,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "80540dc6-0a09-46c3-9531-99b9995df469",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "dc9be875-064e-48a6-aeb5-76cfa98bd742",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "949cec02-5c86-48fd-8d37-eea196892b3f",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -2929,11 +1915,7 @@
               "title": "Validate viewing certificates done by all users in 2022 Cybersecurity Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate viewing certificates done by all users in 2022 Cybersecurity Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 74110,
-=======
-              "duration": 76131,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 77478,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2942,13 +1924,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "b95de306-5bc5-44c5-895e-90ccceba0747",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "681e5300-1eed-4e79-a2d1-51e879178f85",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "9c393c9c-8cfd-4b4f-b90e-bddd98cb7807",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -2956,11 +1933,7 @@
               "title": "Validate downloading certificates done by all users in 2023 Cybersecurity Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate downloading certificates done by all users in 2023 Cybersecurity Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 73404,
-=======
-              "duration": 72531,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 70684,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2969,13 +1942,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "58b721c1-c167-4094-820b-7ab6dc701099",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "30685a95-41ad-4214-afd3-631865c19a60",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "1a1d124a-a629-4b8c-9e5c-01720b8649ac",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -2983,11 +1951,7 @@
               "title": "Validate downloading certificates done by all users in 2023 Cyber Manager Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate downloading certificates done by all users in 2023 Cyber Manager Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 53589,
-=======
-              "duration": 51816,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 51933,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2996,13 +1960,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "6d9a7e15-4e55-4aa0-ba79-09f834c531bc",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "6c9d5d2d-1cbb-454f-a6cd-270d22492680",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "11a01170-10c4-4b45-87b7-5c5ee3d501c2",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -3010,11 +1969,7 @@
               "title": "Validate downloading certificates done by all users in 2022 Cybersecurity Training",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate downloading certificates done by all users in 2022 Cybersecurity Training",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 76087,
-=======
-              "duration": 71790,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 73156,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -3023,13 +1978,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "9a52e4be-d6e0-4b3c-9a5c-74b4aeb84c6f",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "79922e56-6477-47f6-ad5e-65c5b7ca93dd",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "f0ae5cc4-dc3d-4e09-be94-99307e061617",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -3037,11 +1987,7 @@
               "title": "Validate downloading Selected Training Report",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate downloading Selected Training Report",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 14029,
-=======
-              "duration": 12375,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 12360,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -3050,13 +1996,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-selected-training-report', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "13005696-0c03-415c-b99b-4d0a4c0867c5",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "99c0b720-f803-4363-8145-afe6873d5ea3",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "452dcc03-a56e-4c2c-85c6-2d42f3c2204b",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -3064,11 +2005,7 @@
               "title": "Validate searching existing client in Annual",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Validate searching existing client in Annual",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 24412,
-=======
-              "duration": 23938,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 23951,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -3077,13 +2014,8 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-existing-user', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "e591007a-d665-414a-be5e-f8c9bcf6b8f6",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "c956f2f9-5fbb-45df-b0cc-fa60a93469c4",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "9d35f3f1-fc49-4fd1-a309-521c3be2b927",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             },
@@ -3091,11 +2023,7 @@
               "title": "Negative: Validate searching non existing client in Annual",
               "fullTitle": "UT : Manager : Company : Training Reports : Annual Negative: Validate searching non existing client in Annual",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 19363,
-=======
-              "duration": 18794,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "duration": 18678,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -3104,51 +2032,29 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-non-existing-user', '');",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "8609b2d6-6ff3-42c2-8564-a2aed8223e2f",
-              "parentUUID": "c3b8bdd1-66ca-4e8d-8c63-98209c3522ea",
-=======
-              "uuid": "05b153eb-ece3-491c-a017-3df0fe546d73",
-              "parentUUID": "537deb02-65b6-4f5d-9722-d12cb51d7f67",
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+              "uuid": "e0d7d72a-0d84-4417-af35-97169b6c5013",
+              "parentUUID": "9a1eb27c-91b5-4c36-866b-796891dbf3d8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "de316949-912a-403f-bb77-c1ee45c2a950",
-            "4c5f592b-8eb9-4593-909c-9506898e90d7",
-            "80540dc6-0a09-46c3-9531-99b9995df469",
-            "b95de306-5bc5-44c5-895e-90ccceba0747",
-            "58b721c1-c167-4094-820b-7ab6dc701099",
-            "6d9a7e15-4e55-4aa0-ba79-09f834c531bc",
-            "9a52e4be-d6e0-4b3c-9a5c-74b4aeb84c6f",
-            "13005696-0c03-415c-b99b-4d0a4c0867c5",
-            "e591007a-d665-414a-be5e-f8c9bcf6b8f6",
-            "8609b2d6-6ff3-42c2-8564-a2aed8223e2f"
-=======
-            "292d62e4-dc0f-46ea-9d01-56cdcf2ecdfd",
-            "c4c1e57e-91b8-4fbb-a59f-d1f82ac5b1de",
-            "dc9be875-064e-48a6-aeb5-76cfa98bd742",
-            "681e5300-1eed-4e79-a2d1-51e879178f85",
-            "30685a95-41ad-4214-afd3-631865c19a60",
-            "6c9d5d2d-1cbb-454f-a6cd-270d22492680",
-            "79922e56-6477-47f6-ad5e-65c5b7ca93dd",
-            "99c0b720-f803-4363-8145-afe6873d5ea3",
-            "c956f2f9-5fbb-45df-b0cc-fa60a93469c4",
-            "05b153eb-ece3-491c-a017-3df0fe546d73"
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+            "39550a35-c118-485c-9c99-8a016137269a",
+            "42e90ad0-76f9-4f61-ba80-9842ec1b8bc4",
+            "949cec02-5c86-48fd-8d37-eea196892b3f",
+            "9c393c9c-8cfd-4b4f-b90e-bddd98cb7807",
+            "1a1d124a-a629-4b8c-9e5c-01720b8649ac",
+            "11a01170-10c4-4b45-87b7-5c5ee3d501c2",
+            "f0ae5cc4-dc3d-4e09-be94-99307e061617",
+            "452dcc03-a56e-4c2c-85c6-2d42f3c2204b",
+            "9d35f3f1-fc49-4fd1-a309-521c3be2b927",
+            "e0d7d72a-0d84-4417-af35-97169b6c5013"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 495007,
-=======
-          "duration": 489253,
->>>>>>> 6de6176 (Thursday, May 8, 2025 5:28am)
+          "duration": 493237,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
